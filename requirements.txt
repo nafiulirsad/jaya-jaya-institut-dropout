@@ -1,0 +1,23 @@
+# Dependency untuk menjalankan notebook.ipynb dan aplikasi Streamlit (app.py).
+# Versi dikunci sesuai environment yang dipakai saat notebook dieksekusi agar berkas
+# model .joblib dapat dimuat tanpa peringatan ketidakcocokan versi scikit-learn.
+
+# --- inti analisis & pemodelan ---
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.0
+joblib==1.5.3
+
+# --- visualisasi ---
+matplotlib==3.11.1
+seaborn==0.13.2
+plotly==7.0.0
+
+# --- prototipe machine learning ---
+streamlit==1.62.0
+
+# --- lingkungan notebook ---
+jupyter==1.1.1
+notebook==7.6.2
+ipykernel==7.3.0

@@ -1,0 +1,104 @@
+{
+  "nama_model": "Random Forest",
+  "algoritma": "RandomForestClassifier",
+  "target": "Status == 'Dropout' (klasifikasi biner)",
+  "jumlah_data_latih": 4424,
+  "proporsi_kelas_positif": 0.3212,
+  "ambang_operasional": 0.3,
+  "alasan_ambang": "Memaksimalkan F2-score; biaya false negative jauh lebih tinggi daripada false positive pada kasus retensi mahasiswa.",
+  "fitur_kategorikal": [
+    "Marital_status",
+    "Application_mode",
+    "Course"
+  ],
+  "fitur_numerik": [
+    "Application_order",
+    "Daytime_evening_attendance",
+    "Previous_qualification_grade",
+    "Admission_grade",
+    "Displaced",
+    "Debtor",
+    "Tuition_fees_up_to_date",
+    "Gender",
+    "Scholarship_holder",
+    "Age_at_enrollment",
+    "International",
+    "Curricular_units_1st_sem_enrolled",
+    "Curricular_units_1st_sem_approved",
+    "Curricular_units_1st_sem_grade",
+    "Curricular_units_2nd_sem_enrolled",
+    "Curricular_units_2nd_sem_approved",
+    "Curricular_units_2nd_sem_grade",
+    "approval_rate_1st",
+    "approval_rate_2nd",
+    "approval_rate_total",
+    "total_approved",
+    "avg_grade",
+    "grade_trend",
+    "approval_trend",
+    "financial_risk",
+    "no_pass_flag"
+  ],
+  "kolom_input_mentah": [
+    "Marital_status",
+    "Application_mode",
+    "Application_order",
+    "Course",
+    "Daytime_evening_attendance",
+    "Previous_qualification_grade",
+    "Admission_grade",
+    "Displaced",
+    "Debtor",
+    "Tuition_fees_up_to_date",
+    "Gender",
+    "Scholarship_holder",
+    "Age_at_enrollment",
+    "International",
+    "Curricular_units_1st_sem_enrolled",
+    "Curricular_units_1st_sem_approved",
+    "Curricular_units_1st_sem_grade",
+    "Curricular_units_2nd_sem_enrolled",
+    "Curricular_units_2nd_sem_approved",
+    "Curricular_units_2nd_sem_grade"
+  ],
+  "hyperparameter": {
+    "class_weight": "balanced",
+    "max_depth": 12,
+    "max_features": "log2",
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 861
+  },
+  "metrik_data_uji": {
+    "roc_auc": 0.9336,
+    "pr_auc": 0.9003,
+    "akurasi_ambang_operasional": 0.8316,
+    "precision_ambang_operasional": 0.6762,
+    "recall_ambang_operasional": 0.912,
+    "f2_ambang_operasional": 0.8525
+  },
+  "roc_auc_out_of_fold": 0.9208,
+  "band_risiko": [
+    {
+      "band": "Rendah",
+      "batas_bawah": 0.0,
+      "batas_atas": 0.2
+    },
+    {
+      "band": "Sedang",
+      "batas_bawah": 0.2,
+      "batas_atas": 0.35
+    },
+    {
+      "band": "Tinggi",
+      "batas_bawah": 0.35,
+      "batas_atas": 0.6
+    },
+    {
+      "band": "Sangat Tinggi",
+      "batas_bawah": 0.6,
+      "batas_atas": 1.01
+    }
+  ],
+  "versi_scikit_learn": "1.9.0"
+}

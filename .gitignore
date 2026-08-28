@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Hasil prediksi ad-hoc dari aplikasi
+hasil_skoring_dropout.csv
+daftar_prioritas_intervensi.csv
+
+# Artefak lokal Metabase (berkas final disalin ke metabase.db.mv.db di root proyek)
+metabase-data/
+*.trace.db
+
+# OS
+.DS_Store

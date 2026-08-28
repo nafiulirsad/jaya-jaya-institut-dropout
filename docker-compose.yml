@@ -1,0 +1,53 @@
+# Stack lokal untuk business dashboard Jaya Jaya Institut
+#   postgres : sumber data analitik (tabel students + feature_importance)
+#   metabase : business dashboard (login root@mail.com / root123)
+#
+# Jalankan : docker compose up -d
+# Dashboard: http://localhost:3030
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: jji_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: jji_analytics
+      POSTGRES_USER: jji_user
+      POSTGRES_PASSWORD: jji_password
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5442:5432"
+    volumes:
+      - ./docker/init:/docker-entrypoint-initdb.d:ro
+      - ./data:/seed:ro
+      - jji_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jji_user -d jji_analytics"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  metabase:
+    image: metabase/metabase:v0.63.14.3
+    container_name: metabase
+    restart: unless-stopped
+    ports:
+      - "3030:3000"
+    environment:
+      # H2 (default Metabase) -> berkas /metabase.db/metabase.db.mv.db di dalam container
+      JAVA_TIMEZONE: Asia/Jakarta
+    volumes:
+      # berisi metabase.db.mv.db sehingga dashboard yang sudah jadi ikut terbawa
+      - ./metabase-data:/metabase.db
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:3000/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+
+volumes:
+  jji_pgdata:

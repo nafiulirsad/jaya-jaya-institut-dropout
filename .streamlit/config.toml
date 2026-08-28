@@ -1,0 +1,16 @@
+# Tema aplikasi agar konsisten dengan identitas visual Jaya Jaya Institut
+# dan dengan palet warna yang dipakai pada notebook serta dashboard Metabase.
+
+[theme]
+base = "light"
+primaryColor = "#2E86AB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7FA"
+textColor = "#1F2933"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

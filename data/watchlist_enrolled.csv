@@ -1,0 +1,795 @@
+student_id,program_studi,jalur_masuk,kelompok_usia,status_keuangan,ukt_lunas,menunggak,penerima_beasiswa,rasio_kelulusan,rata_rata_nilai,tren_kelulusan,risk_score,risk_band
+JJI-01988,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,98.6,Sangat Tinggi
+JJI-00943,Pekerjaan Sosial,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,98.3,Sangat Tinggi
+JJI-02795,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,98.1,Sangat Tinggi
+JJI-02705,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,97.8,Sangat Tinggi
+JJI-03078,Teknik Informatika,Pindahan / Ganti Program,26-30,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.0,0.0,0.0,97.8,Sangat Tinggi
+JJI-03500,Agronomi,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,97.7,Sangat Tinggi
+JJI-00065,Desain Komunikasi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,97.5,Sangat Tinggi
+JJI-00359,Agronomi,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.0,0.0,0.0,97.5,Sangat Tinggi
+JJI-04282,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.25,5.625,-0.5,97.0,Sangat Tinggi
+JJI-02240,Keperawatan Hewan,Jalur Usia >23 Tahun,23-25,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.0,0.0,0.0,97.0,Sangat Tinggi
+JJI-00143,Manajemen,Pindahan / Ganti Program,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.0,0.0,0.0,96.7,Sangat Tinggi
+JJI-04186,Manajemen (kelas malam),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,96.5,Sangat Tinggi
+JJI-02922,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3333,6.625,-0.6667,96.3,Sangat Tinggi
+JJI-02759,Agronomi,Pemegang Ijazah/Diploma Lain,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,96.1,Sangat Tinggi
+JJI-03591,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,95.9,Sangat Tinggi
+JJI-00855,Teknik Informatika,Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.0,0.0,0.0,95.5,Sangat Tinggi
+JJI-00929,Keperawatan Hewan,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,95.4,Sangat Tinggi
+JJI-04382,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,94.7,Sangat Tinggi
+JJI-03561,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3571,6.53,-0.7143,94.4,Sangat Tinggi
+JJI-00071,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,94.1,Sangat Tinggi
+JJI-02717,Kesehatan Gigi,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,93.5,Sangat Tinggi
+JJI-00511,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3333,5.375,-0.6667,93.4,Sangat Tinggi
+JJI-02564,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0909,6.0,-0.1667,93.2,Sangat Tinggi
+JJI-02385,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,5.75,-0.8,93.1,Sangat Tinggi
+JJI-03926,Manajemen,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.0,-0.2,92.8,Sangat Tinggi
+JJI-03968,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,92.2,Sangat Tinggi
+JJI-01823,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.5,-0.2,91.9,Sangat Tinggi
+JJI-00167,Agronomi,Jalur Usia >23 Tahun,41+,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,91.7,Sangat Tinggi
+JJI-03897,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0833,5.5,-0.1667,91.6,Sangat Tinggi
+JJI-02968,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,90.9,Sangat Tinggi
+JJI-03413,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.5,-0.2,90.4,Sangat Tinggi
+JJI-03721,Agronomi,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0833,5.5,-0.1667,90.3,Sangat Tinggi
+JJI-03574,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,90.2,Sangat Tinggi
+JJI-00192,Pekerjaan Sosial (kelas malam),Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.2727,10.0,-0.1333,90.2,Sangat Tinggi
+JJI-00090,Teknik Informatika,Pindahan / Ganti Program,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.2,5.0,-0.4,89.2,Sangat Tinggi
+JJI-01558,Manajemen,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,88.3,Sangat Tinggi
+JJI-01459,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,11.25,-0.5,88.2,Sangat Tinggi
+JJI-01862,Teknik Informatika,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.5,0.2,87.6,Sangat Tinggi
+JJI-02595,Manajemen,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,11.0,-0.2,86.8,Sangat Tinggi
+JJI-01243,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.2,10.5,0.0,86.8,Sangat Tinggi
+JJI-01564,Pengelolaan Kuda (Equinculture),Pemegang Ijazah/Diploma Lain,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.4167,11.5,-0.1667,86.5,Sangat Tinggi
+JJI-02451,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.0,0.0,0.0,86.5,Sangat Tinggi
+JJI-04148,Keperawatan Hewan,Jalur Usia >23 Tahun,41+,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.5,11.375,-0.3333,86.2,Sangat Tinggi
+JJI-02679,Agronomi,Pemegang Ijazah/Diploma Lain,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,85.9,Sangat Tinggi
+JJI-02248,Keperawatan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,85.7,Sangat Tinggi
+JJI-00254,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0833,5.5,-0.1667,85.7,Sangat Tinggi
+JJI-01770,Manajemen,Pindahan / Ganti Program,31-40,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.4,11.1667,-0.0536,85.4,Sangat Tinggi
+JJI-01962,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,85.3,Sangat Tinggi
+JJI-00033,Manajemen,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.5,12.4167,-0.2,84.9,Sangat Tinggi
+JJI-01885,Keperawatan,Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.7375,-0.1429,84.8,Sangat Tinggi
+JJI-01714,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.5,12.0,-0.3333,84.7,Sangat Tinggi
+JJI-03336,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0833,5.0,0.1667,84.3,Sangat Tinggi
+JJI-00976,Teknik Informatika,Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.6,11.1667,0.0,83.8,Sangat Tinggi
+JJI-02689,Teknik Informatika,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,83.6,Sangat Tinggi
+JJI-01718,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.125,10.0,0.0,83.2,Sangat Tinggi
+JJI-02588,Manajemen,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,10.75,-0.2,83.0,Sangat Tinggi
+JJI-03329,Teknik Informatika,Jalur Usia >23 Tahun,31-40,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.3,14.0,0.2,82.9,Sangat Tinggi
+JJI-02698,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.6667,12.825,0.0,82.6,Sangat Tinggi
+JJI-00764,Manajemen,Mahasiswa Internasional,31-40,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.2,10.5,0.0,81.6,Sangat Tinggi
+JJI-02783,Jurnalistik & Komunikasi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,11.1667,-0.1667,81.5,Sangat Tinggi
+JJI-03633,Pekerjaan Sosial,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.4167,12.25,-0.1667,81.5,Sangat Tinggi
+JJI-02841,Keperawatan Hewan,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.4167,11.5,-0.1667,81.0,Sangat Tinggi
+JJI-02361,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.2,10.5,0.0,80.6,Sangat Tinggi
+JJI-01531,Agronomi,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,13.0,0.1667,79.6,Sangat Tinggi
+JJI-01249,Manajemen Periklanan & Pemasaran,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.1667,11.5,0.0,79.3,Sangat Tinggi
+JJI-00970,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.5833,-0.2,79.1,Sangat Tinggi
+JJI-02301,Teknik Informatika,Pemegang Ijazah/Diploma Lain,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3077,14.0,-0.2619,79.0,Sangat Tinggi
+JJI-04414,Teknologi Produksi Biofuel,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3889,12.3,-0.25,78.7,Sangat Tinggi
+JJI-03160,Desain Komunikasi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.4167,11.1667,-0.1667,78.4,Sangat Tinggi
+JJI-02258,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3846,11.0833,-0.0952,78.3,Sangat Tinggi
+JJI-02458,Manajemen,Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,11.5,-0.4,78.1,Sangat Tinggi
+JJI-02327,Teknik Informatika,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.0,0.2,78.1,Sangat Tinggi
+JJI-03610,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,78.0,Sangat Tinggi
+JJI-03342,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.75,12.7,-0.1667,77.8,Sangat Tinggi
+JJI-04296,Agronomi,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6087,11.3125,-0.0154,77.3,Sangat Tinggi
+JJI-00391,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,11.875,-0.5,76.6,Sangat Tinggi
+JJI-03934,Manajemen,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.3,10.0,0.2,76.4,Sangat Tinggi
+JJI-00503,Desain Komunikasi,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.75,11.5167,-0.1667,76.4,Sangat Tinggi
+JJI-00506,Keperawatan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,13.2625,-0.1429,75.9,Sangat Tinggi
+JJI-01269,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.65,12.4875,-0.1717,75.7,Sangat Tinggi
+JJI-00559,Pariwisata,Pemegang Ijazah/Diploma Lain,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5,11.0833,0.0,75.2,Sangat Tinggi
+JJI-03326,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4118,10.5,-0.2143,74.8,Sangat Tinggi
+JJI-04312,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,5.0,0.2,74.8,Sangat Tinggi
+JJI-03780,Kesehatan Gigi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,12.3333,-0.0536,74.7,Sangat Tinggi
+JJI-03212,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,73.7,Sangat Tinggi
+JJI-02364,Teknik Informatika,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.2,5.8333,0.4,73.6,Sangat Tinggi
+JJI-01860,Manajemen (kelas malam),Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5714,12.5,-0.6,73.4,Sangat Tinggi
+JJI-03626,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1667,11.5,0.0,72.8,Sangat Tinggi
+JJI-00187,Pekerjaan Sosial,Pindahan / Ganti Program,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.75,10.75,-0.1333,72.6,Sangat Tinggi
+JJI-00647,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.6,-0.6667,71.9,Sangat Tinggi
+JJI-00527,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,11.25,0.4,71.8,Sangat Tinggi
+JJI-02765,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.125,0.0,71.8,Sangat Tinggi
+JJI-03833,Desain Komunikasi,Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.6429,0.0,71.6,Sangat Tinggi
+JJI-04407,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.6667,-0.3333,71.4,Sangat Tinggi
+JJI-02555,Teknik Informatika,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6,11.0,0.0,71.3,Sangat Tinggi
+JJI-02763,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,12.0,0.0,71.1,Sangat Tinggi
+JJI-02516,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.125,-0.6,71.0,Sangat Tinggi
+JJI-02396,Jurnalistik & Komunikasi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.8333,0.0,70.8,Sangat Tinggi
+JJI-02726,Pengelolaan Kuda (Equinculture),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,10.75,0.2,70.8,Sangat Tinggi
+JJI-00442,Pengelolaan Kuda (Equinculture),Pindahan / Ganti Program,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.4,12.0,0.4,70.4,Sangat Tinggi
+JJI-03479,Pekerjaan Sosial,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5714,10.5,-0.7083,69.8,Sangat Tinggi
+JJI-01437,Teknik Informatika,Mahasiswa Internasional,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.3636,12.25,0.0667,69.4,Sangat Tinggi
+JJI-04154,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.0,0.0,0.0,69.3,Sangat Tinggi
+JJI-01821,Keperawatan Hewan,Pindahan / Ganti Program,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.6667,12.3333,-0.3333,69.2,Sangat Tinggi
+JJI-03690,Pengelolaan Kuda (Equinculture),Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,13.5,0.4,69.0,Sangat Tinggi
+JJI-02242,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.0417,-0.2,68.9,Sangat Tinggi
+JJI-00838,Kesehatan Gigi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.9571,-0.4286,68.9,Sangat Tinggi
+JJI-01090,Desain Animasi & Multimedia,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,68.7,Sangat Tinggi
+JJI-01300,Pariwisata,Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.0,-0.1667,68.6,Sangat Tinggi
+JJI-01960,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.7778,13.0625,-0.2222,68.4,Sangat Tinggi
+JJI-01969,Pendidikan Dasar,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5833,11.9583,-0.1667,68.3,Sangat Tinggi
+JJI-01114,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.0,0.0,68.2,Sangat Tinggi
+JJI-02845,Manajemen (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.75,0.2,68.2,Sangat Tinggi
+JJI-00402,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.3333,0.0,68.1,Sangat Tinggi
+JJI-01784,Manajemen,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6,11.5,-0.4,68.1,Sangat Tinggi
+JJI-01971,Pekerjaan Sosial,Pindahan / Ganti Program,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5238,11.8125,-0.4273,68.1,Sangat Tinggi
+JJI-04149,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,10.5,0.0,67.9,Sangat Tinggi
+JJI-01065,Pendidikan Dasar,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.75,12.675,-0.1667,67.9,Sangat Tinggi
+JJI-04173,Manajemen,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.2,14.0,0.0,67.8,Sangat Tinggi
+JJI-00806,Manajemen,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5,10.75,0.2,67.8,Sangat Tinggi
+JJI-00064,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.7,-0.6667,67.6,Sangat Tinggi
+JJI-00017,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.25,11.5,0.1667,67.5,Sangat Tinggi
+JJI-00428,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.0,-0.2,67.4,Sangat Tinggi
+JJI-00441,Kesehatan Gigi,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1667,8.0,0.25,67.3,Sangat Tinggi
+JJI-00392,Keperawatan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.67,-0.0893,66.9,Sangat Tinggi
+JJI-00925,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.6667,0.2,66.8,Sangat Tinggi
+JJI-02481,Desain Animasi & Multimedia,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,66.8,Sangat Tinggi
+JJI-02185,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.25,11.0,0.1667,66.5,Sangat Tinggi
+JJI-01754,Teknik Informatika,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.2,5.25,0.4,65.8,Sangat Tinggi
+JJI-03452,Keperawatan,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6429,13.4375,0.1429,65.6,Sangat Tinggi
+JJI-03938,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.75,-0.3333,65.6,Sangat Tinggi
+JJI-01534,Teknik Informatika,Pemegang Ijazah/Diploma Lain,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7,15.35,-0.2,65.5,Sangat Tinggi
+JJI-04337,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1667,17.0,0.0,65.2,Sangat Tinggi
+JJI-00701,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.6667,12.6,-0.3333,64.8,Sangat Tinggi
+JJI-04203,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,64.6,Sangat Tinggi
+JJI-02237,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.875,-0.3333,64.5,Sangat Tinggi
+JJI-03716,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,13.4167,0.0,64.0,Sangat Tinggi
+JJI-00403,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.625,-0.1667,64.0,Sangat Tinggi
+JJI-02734,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,11.8333,0.1667,63.7,Sangat Tinggi
+JJI-02373,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,63.6,Sangat Tinggi
+JJI-02930,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.125,13.67,0.0,63.5,Sangat Tinggi
+JJI-03608,Desain Animasi & Multimedia,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,63.3,Sangat Tinggi
+JJI-02120,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,63.2,Sangat Tinggi
+JJI-03344,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,11.5,0.2,63.2,Sangat Tinggi
+JJI-02489,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.5833,-0.2,62.8,Sangat Tinggi
+JJI-03902,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,11.25,-0.1667,62.8,Sangat Tinggi
+JJI-04025,Kesehatan Gigi,Mahasiswa Internasional,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1429,5.8333,0.2857,62.8,Sangat Tinggi
+JJI-00964,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,12.0833,0.0,62.7,Sangat Tinggi
+JJI-02602,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.7917,-0.1667,62.3,Sangat Tinggi
+JJI-00909,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,10.625,-0.1667,62.0,Sangat Tinggi
+JJI-01923,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.4,-0.3333,62.0,Sangat Tinggi
+JJI-02367,Desain Animasi & Multimedia,Seleksi Reguler,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7059,12.0315,-0.1176,62.0,Sangat Tinggi
+JJI-01751,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6471,11.7679,-0.2778,61.9,Sangat Tinggi
+JJI-01897,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.75,-0.3333,61.7,Sangat Tinggi
+JJI-00931,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,11.75,0.2,61.7,Sangat Tinggi
+JJI-04171,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.0417,-0.1667,61.6,Sangat Tinggi
+JJI-02036,Keperawatan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5385,14.4375,0.0714,61.5,Sangat Tinggi
+JJI-01850,Pariwisata,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.75,0.1667,61.3,Sangat Tinggi
+JJI-02198,Desain Komunikasi,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.0,0.1667,61.2,Sangat Tinggi
+JJI-00657,Pekerjaan Sosial,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5833,10.3,-0.5,61.0,Sangat Tinggi
+JJI-01682,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.4583,-0.1667,60.9,Sangat Tinggi
+JJI-03842,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.5417,-0.1667,60.8,Sangat Tinggi
+JJI-03545,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.9167,0.2,60.7,Sangat Tinggi
+JJI-03584,Manajemen,Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.9,11.5,0.2,60.7,Sangat Tinggi
+JJI-02208,Manajemen,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,6.6667,0.6,60.3,Sangat Tinggi
+JJI-04181,Pendidikan Dasar,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.5833,12.0833,-0.1667,60.3,Sangat Tinggi
+JJI-02106,Keperawatan,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,12.78,-0.4286,60.2,Sangat Tinggi
+JJI-01828,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.9167,-0.2,60.2,Sangat Tinggi
+JJI-02834,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.5,-0.2,59.9,Tinggi
+JJI-00652,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.7143,13.5833,-0.0833,59.8,Tinggi
+JJI-03340,Manajemen Periklanan & Pemasaran,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,10.8393,0.0,59.5,Tinggi
+JJI-00548,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6667,13.5625,-0.6667,59.5,Tinggi
+JJI-02209,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6,11.4524,0.0,59.5,Tinggi
+JJI-03786,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,11.8333,0.0,59.4,Tinggi
+JJI-02471,Pengelolaan Kuda (Equinculture),Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.3,-0.5,59.0,Tinggi
+JJI-01230,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7222,12.725,-0.3333,59.0,Tinggi
+JJI-02467,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,13.0,-0.6,58.9,Tinggi
+JJI-03597,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,13.0417,0.0,58.8,Tinggi
+JJI-02442,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.2,-0.3333,58.6,Tinggi
+JJI-01569,Kesehatan Gigi,Mahasiswa Internasional,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.1429,5.8333,0.2857,58.5,Tinggi
+JJI-01896,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,10.75,0.1667,58.5,Tinggi
+JJI-04236,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.125,-0.1667,58.3,Tinggi
+JJI-01689,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,58.3,Tinggi
+JJI-00345,Manajemen,Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.5,-0.4,57.9,Tinggi
+JJI-01327,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.5833,-0.3333,57.8,Tinggi
+JJI-00642,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.3333,-0.2,57.7,Tinggi
+JJI-04082,Keperawatan Hewan,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6,11.25,0.4,57.7,Tinggi
+JJI-01103,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.125,0.1667,57.5,Tinggi
+JJI-03367,Manajemen (kelas malam),Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.75,0.2,57.4,Tinggi
+JJI-02556,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,10.5,-0.4,57.3,Tinggi
+JJI-03900,Manajemen,Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.925,0.0893,57.3,Tinggi
+JJI-04398,Pendidikan Dasar,Kontingen Khusus (Kepulauan),20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.1333,-0.3333,57.3,Tinggi
+JJI-03524,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.1667,0.2,56.7,Tinggi
+JJI-02545,Agronomi,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.5833,0.1667,56.6,Tinggi
+JJI-01338,Manajemen,Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Ya,0.9,12.4,-0.2,56.0,Tinggi
+JJI-02435,Keperawatan Hewan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.3,5.8333,0.6,55.9,Tinggi
+JJI-02375,Pengelolaan Kuda (Equinculture),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.875,-0.2,55.8,Tinggi
+JJI-02446,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,11.9667,-0.2857,55.8,Tinggi
+JJI-03074,Teknik Informatika,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.8333,-0.2,55.8,Tinggi
+JJI-00808,Pengelolaan Kuda (Equinculture),Seleksi Reguler,23-25,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.8333,13.5,-0.3333,55.5,Tinggi
+JJI-01547,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.8333,12.2,0.0,55.5,Tinggi
+JJI-02266,Keperawatan Hewan,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.75,14.4,-0.1667,55.4,Tinggi
+JJI-04270,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.5,-0.8333,55.2,Tinggi
+JJI-00383,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.3333,0.0,55.2,Tinggi
+JJI-04336,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.5833,-0.2,55.0,Tinggi
+JJI-03462,Keperawatan,Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.625,13.126,0.0,54.8,Tinggi
+JJI-00494,Keperawatan Hewan,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.75,12.3667,-0.1667,54.6,Tinggi
+JJI-02369,Jurnalistik & Komunikasi,Seleksi Reguler,26-30,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.9167,15.15,-0.1667,54.6,Tinggi
+JJI-02820,Jurnalistik & Komunikasi,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.25,5.5,0.5,54.6,Tinggi
+JJI-01681,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.3333,-0.2,54.4,Tinggi
+JJI-00557,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.5,0.0,54.4,Tinggi
+JJI-02289,Teknik Informatika,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.65,-0.4,54.3,Tinggi
+JJI-03908,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,13.0833,-0.1667,54.2,Tinggi
+JJI-04267,Desain Animasi & Multimedia,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,54.0,Tinggi
+JJI-03647,Keperawatan Hewan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.275,0.1667,53.8,Tinggi
+JJI-03219,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.2857,-0.0559,53.7,Tinggi
+JJI-01475,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.25,-0.4,53.6,Tinggi
+JJI-03512,Pengelolaan Kuda (Equinculture),Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,13.7,-0.5,53.6,Tinggi
+JJI-02146,Pengelolaan Kuda (Equinculture),Seleksi Reguler,17-19,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.8333,13.2833,0.0,53.5,Tinggi
+JJI-00842,Manajemen,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.8,12.75,0.0,53.4,Tinggi
+JJI-00110,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6429,12.3333,-0.4286,53.4,Tinggi
+JJI-00656,Pekerjaan Sosial,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.6667,10.7,-0.3333,53.3,Tinggi
+JJI-00046,Manajemen (kelas malam),Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.9167,0.2,53.3,Tinggi
+JJI-00347,Pekerjaan Sosial,Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7586,11.5,-0.1202,53.3,Tinggi
+JJI-01414,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,11.3333,-0.1667,53.2,Tinggi
+JJI-00118,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,10.5,0.0,53.2,Tinggi
+JJI-03821,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.25,-0.5,53.1,Tinggi
+JJI-02194,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.0,0.0,53.0,Tinggi
+JJI-04065,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.6765,11.5417,-0.0588,52.9,Tinggi
+JJI-02587,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.3333,0.0,52.9,Tinggi
+JJI-01330,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.625,-0.1667,52.9,Tinggi
+JJI-00531,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6,11.6667,0.0,52.8,Tinggi
+JJI-02025,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.625,0.4,52.6,Tinggi
+JJI-01147,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,52.6,Tinggi
+JJI-02279,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.2,-0.3333,52.4,Tinggi
+JJI-03438,Manajemen (kelas malam),Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.68,10.4167,0.1346,52.2,Tinggi
+JJI-03638,Pendidikan Dasar,Jalur Usia >23 Tahun,31-40,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.9286,12.7619,-0.1429,52.2,Tinggi
+JJI-03825,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.1,7.5,0.2,52.1,Tinggi
+JJI-00151,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,52.1,Tinggi
+JJI-00060,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,52.1,Tinggi
+JJI-02592,Pendidikan Dasar,Seleksi Reguler,20-22,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.8571,12.3333,0.0,51.7,Tinggi
+JJI-00762,Desain Animasi & Multimedia,Kontingen Khusus (Kepulauan),20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,51.7,Tinggi
+JJI-03357,Teknik Informatika,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,12.8,0.4,51.7,Tinggi
+JJI-00063,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,51.7,Tinggi
+JJI-02491,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.9583,0.1667,51.6,Tinggi
+JJI-03193,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.125,0.0,51.5,Tinggi
+JJI-03516,Jurnalistik & Komunikasi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,12.125,0.5,51.5,Tinggi
+JJI-01775,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,10.4,-0.3333,51.3,Tinggi
+JJI-01772,Manajemen,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,10.25,0.4,51.3,Tinggi
+JJI-02235,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,11.3333,0.1667,50.8,Tinggi
+JJI-00833,Pengelolaan Kuda (Equinculture),Pindahan / Ganti Program,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7,12.85,-0.6,50.7,Tinggi
+JJI-01279,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6667,11.875,0.0,50.6,Tinggi
+JJI-02696,Keperawatan,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7143,13.95,0.2857,50.5,Tinggi
+JJI-00737,Jurnalistik & Komunikasi,Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7222,11.8095,0.2208,50.4,Tinggi
+JJI-02723,Keperawatan Hewan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.7083,-0.1667,50.1,Tinggi
+JJI-01153,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.381,0.0,50.0,Tinggi
+JJI-00112,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6,12.0,0.0,50.0,Tinggi
+JJI-04012,Manajemen,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,10.65,0.0,49.8,Tinggi
+JJI-03779,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,13.45,-0.3333,49.7,Tinggi
+JJI-00053,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,12.5,-0.1667,49.6,Tinggi
+JJI-01838,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.16,0.0,49.3,Tinggi
+JJI-01504,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.09,0.0,49.2,Tinggi
+JJI-04321,Manajemen,Mahasiswa Internasional,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7,11.7917,0.2,49.0,Tinggi
+JJI-01957,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.6667,-0.5,48.9,Tinggi
+JJI-02536,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.075,-0.1667,48.7,Tinggi
+JJI-02878,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.9167,-0.1667,48.5,Tinggi
+JJI-01325,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.3333,-0.4,48.5,Tinggi
+JJI-01955,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.625,12.46,0.0,48.4,Tinggi
+JJI-01742,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.1,-0.5,48.3,Tinggi
+JJI-03052,Manajemen,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.1786,0.2,48.3,Tinggi
+JJI-02434,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.5,-0.2,48.1,Tinggi
+JJI-04199,Pendidikan Dasar,Kontingen Khusus (Kepulauan),20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.625,0.1667,48.0,Tinggi
+JJI-02729,Keperawatan Hewan,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.9167,14.9643,-0.1667,47.9,Tinggi
+JJI-01786,Manajemen,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.25,0.2,47.9,Tinggi
+JJI-02987,Pendidikan Dasar,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.875,0.0,47.7,Tinggi
+JJI-00998,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,12.15,-0.5,47.6,Tinggi
+JJI-00242,Desain Animasi & Multimedia,Kontingen Khusus (Kepulauan),23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,13.2323,0.0452,47.4,Tinggi
+JJI-02760,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.4,0.0,47.3,Tinggi
+JJI-02342,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,13.5833,-0.2,47.2,Tinggi
+JJI-03195,Manajemen (kelas malam),Pindahan / Ganti Program,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8,11.6349,0.2,47.2,Tinggi
+JJI-03611,Teknik Informatika,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.05,0.2,47.1,Tinggi
+JJI-02239,Pengelolaan Kuda (Equinculture),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.3333,-0.5,47.1,Tinggi
+JJI-03544,Keperawatan Hewan,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.8333,13.6333,0.0,47.1,Tinggi
+JJI-03285,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8,11.5,0.0,47.0,Tinggi
+JJI-00200,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.575,0.0,46.9,Tinggi
+JJI-00801,Desain Komunikasi,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.8333,11.5,-0.3333,46.9,Tinggi
+JJI-02671,Teknik Informatika,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9,11.8929,0.2,46.7,Tinggi
+JJI-01809,Teknik Informatika,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.9,12.1,-0.2,46.7,Tinggi
+JJI-02322,Desain Komunikasi,Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,16.25,-0.1667,46.6,Tinggi
+JJI-03698,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,10.65,-0.5,46.5,Tinggi
+JJI-02413,Manajemen (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.5833,0.2,46.5,Tinggi
+JJI-00836,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.5,-0.4,46.5,Tinggi
+JJI-04274,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,13.3333,0.0,46.3,Tinggi
+JJI-02191,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,46.0,Tinggi
+JJI-00547,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,13.85,-0.6,46.0,Tinggi
+JJI-01428,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,13.45,-0.5,45.5,Tinggi
+JJI-03738,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.4167,-0.5,45.5,Tinggi
+JJI-03151,Pengelolaan Kuda (Equinculture),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.75,-0.4,45.3,Tinggi
+JJI-01032,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6667,11.375,0.0,45.1,Tinggi
+JJI-02384,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.7917,11.6222,-0.0833,45.1,Tinggi
+JJI-04365,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.125,0.0,45.1,Tinggi
+JJI-01774,Agronomi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.8333,-0.1667,45.1,Tinggi
+JJI-01512,Manajemen (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.25,0.0,45.1,Tinggi
+JJI-02303,Manajemen,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.7,10.8333,-0.6,45.1,Tinggi
+JJI-04133,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.225,0.0,45.0,Tinggi
+JJI-02674,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.75,0.2,44.9,Tinggi
+JJI-00380,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,13.0833,-0.5,44.8,Tinggi
+JJI-01593,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,10.9167,-0.4,44.6,Tinggi
+JJI-02282,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.125,0.0,44.3,Tinggi
+JJI-03919,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,13.0,0.0,44.2,Tinggi
+JJI-01603,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,10.6667,-0.3333,43.7,Tinggi
+JJI-00153,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.5833,0.3333,43.3,Tinggi
+JJI-02953,Manajemen Periklanan & Pemasaran,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.8667,-0.4,43.3,Tinggi
+JJI-00549,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,13.4967,0.0,43.2,Tinggi
+JJI-03941,Manajemen,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.1875,0.2,43.1,Tinggi
+JJI-01562,Pengelolaan Kuda (Equinculture),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,13.925,-0.1667,43.1,Tinggi
+JJI-01349,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,0.95,13.25,-0.1111,43.0,Tinggi
+JJI-00638,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.0333,0.2,42.8,Tinggi
+JJI-02347,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.875,0.0,42.8,Tinggi
+JJI-00026,Pekerjaan Sosial,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.75,11.3,-0.1667,42.7,Tinggi
+JJI-01660,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,42.6,Tinggi
+JJI-01929,Desain Komunikasi,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.8333,12.4,0.0,42.5,Tinggi
+JJI-02157,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,42.5,Tinggi
+JJI-03427,Manajemen,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,10.9,-0.6,42.4,Tinggi
+JJI-03120,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.3333,0.0,42.1,Tinggi
+JJI-03930,Agronomi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.525,-0.1667,41.8,Tinggi
+JJI-02243,Teknik Informatika,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.25,-0.6,41.8,Tinggi
+JJI-02107,Desain Komunikasi,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,13.75,0.5,41.6,Tinggi
+JJI-00484,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.8333,-0.6667,41.4,Tinggi
+JJI-00306,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.0,0.0,41.1,Tinggi
+JJI-04083,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.625,0.0,41.0,Tinggi
+JJI-02558,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,41.0,Tinggi
+JJI-02788,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.1667,0.2,40.9,Tinggi
+JJI-02028,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,40.8,Tinggi
+JJI-01658,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.125,-0.4,40.8,Tinggi
+JJI-01582,Desain Komunikasi,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4167,11.0,0.5,40.6,Tinggi
+JJI-03228,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.85,0.0,40.6,Tinggi
+JJI-01104,Manajemen,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.65,10.869,0.1,40.6,Tinggi
+JJI-03086,Manajemen,Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7692,12.4167,0.05,40.4,Tinggi
+JJI-01519,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,40.4,Tinggi
+JJI-02568,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,10.9333,0.3333,40.4,Tinggi
+JJI-04162,Pariwisata,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,0.8333,12.2,0.0,40.3,Tinggi
+JJI-02387,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.0333,-0.3333,40.3,Tinggi
+JJI-04355,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.5667,0.2,40.3,Tinggi
+JJI-02773,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.625,12.858,0.0,40.2,Tinggi
+JJI-02512,Keperawatan,Mahasiswa Internasional,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6429,11.9975,0.1429,40.1,Tinggi
+JJI-00562,Pengelolaan Kuda (Equinculture),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.8333,0.2,40.0,Tinggi
+JJI-04286,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.375,-0.2,40.0,Tinggi
+JJI-02777,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,40.0,Tinggi
+JJI-02111,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,14.1667,0.4,40.0,Tinggi
+JJI-04232,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8,11.625,0.0,39.8,Tinggi
+JJI-03159,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.9167,-0.5,39.8,Tinggi
+JJI-00775,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.0,0.0,39.7,Tinggi
+JJI-01334,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,11.6,0.1667,39.5,Tinggi
+JJI-02223,Teknik Informatika,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.9583,-0.2,39.4,Tinggi
+JJI-04178,Keperawatan Hewan,Jalur Usia >23 Tahun,26-30,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9167,12.0625,-0.1667,39.4,Tinggi
+JJI-02393,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.9167,0.2,39.3,Tinggi
+JJI-03241,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.5333,0.4,39.1,Tinggi
+JJI-00784,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,13.345,0.0,39.1,Tinggi
+JJI-01390,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.05,-0.2,39.0,Tinggi
+JJI-03467,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.75,-0.3,38.9,Tinggi
+JJI-04276,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.6667,-0.2,38.6,Tinggi
+JJI-02687,Manajemen,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.5,-0.4,38.4,Tinggi
+JJI-01921,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5833,13.85,-0.5,38.4,Tinggi
+JJI-03551,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7333,12.3625,-0.2321,38.3,Tinggi
+JJI-00852,Pendidikan Dasar,Kontingen Khusus (Kepulauan),20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.925,-0.1667,38.3,Tinggi
+JJI-01561,Teknologi Produksi Biofuel,Mahasiswa Internasional,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,12.8036,-0.4286,38.0,Tinggi
+JJI-01580,Desain Animasi & Multimedia,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.0,0.0,0.0,37.7,Tinggi
+JJI-00984,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.2917,0.0,37.6,Tinggi
+JJI-01993,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8333,11.5417,-0.3333,37.6,Tinggi
+JJI-03604,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.9,-0.4,37.3,Tinggi
+JJI-01588,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.9833,-0.4,37.2,Tinggi
+JJI-02873,Manajemen (kelas malam),Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.0,0.3,37.2,Tinggi
+JJI-02559,Manajemen,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.0833,-0.6,37.2,Tinggi
+JJI-00363,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,10.6667,0.2,37.1,Tinggi
+JJI-01728,Pengelolaan Kuda (Equinculture),Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6667,11.375,0.0,37.1,Tinggi
+JJI-00117,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,10.375,0.3333,36.6,Tinggi
+JJI-00546,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,10.6,-0.2,36.5,Tinggi
+JJI-03936,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.75,0.0,36.3,Tinggi
+JJI-00592,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6429,12.075,0.1429,36.1,Tinggi
+JJI-03313,Desain Komunikasi,Pindahan / Ganti Program,31-40,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9167,10.5833,0.1667,36.1,Tinggi
+JJI-01429,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,11.225,0.1667,36.0,Tinggi
+JJI-00325,Keperawatan Hewan,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.6667,0.0,35.9,Tinggi
+JJI-03180,Keperawatan,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7143,11.2,0.0,35.9,Tinggi
+JJI-02109,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.65,0.2,35.7,Tinggi
+JJI-00698,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,10.4,0.3333,35.7,Tinggi
+JJI-00096,Teknik Informatika,Mahasiswa Internasional,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,13.625,-0.4,35.5,Tinggi
+JJI-04344,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,13.3157,0.1429,35.5,Tinggi
+JJI-01536,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7692,12.375,0.1905,35.3,Tinggi
+JJI-01133,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,10.8333,-0.2,35.2,Tinggi
+JJI-01119,Kesehatan Gigi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.7786,-0.375,35.2,Tinggi
+JJI-04193,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.925,0.1667,35.0,Tinggi
+JJI-01472,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.55,0.1667,34.7,Sedang
+JJI-00730,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.475,0.1667,34.7,Sedang
+JJI-00678,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.9167,-0.1667,34.7,Sedang
+JJI-01881,Teknik Informatika,Pemegang Ijazah/Diploma Lain,41+,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8462,14.4848,0.2857,34.6,Sedang
+JJI-03184,Teknik Informatika,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.75,0.0,34.5,Sedang
+JJI-03379,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.4821,-0.2,34.4,Sedang
+JJI-01920,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8333,13.4,0.0,34.4,Sedang
+JJI-02882,Pekerjaan Sosial,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7647,11.1,-0.0857,34.3,Sedang
+JJI-03652,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.5417,-0.1667,33.9,Sedang
+JJI-02833,Agronomi,Jalur Usia >23 Tahun,31-40,Bermasalah (menunggak & UKT tertunggak),Tidak,Ya,Tidak,1.0,13.5833,0.0,33.8,Sedang
+JJI-03156,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,10.6667,0.2,33.8,Sedang
+JJI-01822,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6429,11.875,0.1429,33.7,Sedang
+JJI-01401,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,33.6,Sedang
+JJI-01894,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,33.5,Sedang
+JJI-01525,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.0,0.0,0.0,33.3,Sedang
+JJI-00379,Pendidikan Dasar,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.9286,12.8095,-0.1429,33.3,Sedang
+JJI-04172,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.3333,5.5,0.6667,33.2,Sedang
+JJI-04235,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,10.875,0.2,33.2,Sedang
+JJI-03071,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,10.9524,-0.3333,33.1,Sedang
+JJI-02876,Manajemen,Pindahan / Ganti Program,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9643,11.7333,-0.0769,33.1,Sedang
+JJI-03405,Manajemen (kelas malam),Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,10.725,-0.2,33.0,Sedang
+JJI-00084,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.6667,-0.4,32.8,Sedang
+JJI-01083,Desain Komunikasi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.4,-0.1667,32.7,Sedang
+JJI-01753,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.9,-0.1667,32.6,Sedang
+JJI-01979,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,13.6429,-0.5,32.6,Sedang
+JJI-03140,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,11.85,-0.1667,32.6,Sedang
+JJI-02860,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.75,-0.1667,32.3,Sedang
+JJI-02058,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.5,-0.6667,32.3,Sedang
+JJI-03555,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9167,13.1833,-0.1667,32.2,Sedang
+JJI-03702,Manajemen,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Ya,0.8,12.7167,-0.4,32.0,Sedang
+JJI-03617,Teknik Informatika,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,1.0,14.6,0.0,31.7,Sedang
+JJI-02197,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.375,0.4,31.7,Sedang
+JJI-00031,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.2143,0.0,31.6,Sedang
+JJI-01463,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.8333,0.2,31.5,Sedang
+JJI-03469,Manajemen (kelas malam),Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,10.825,-0.2,31.3,Sedang
+JJI-01844,Manajemen,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,1.0,12.3,0.0,31.3,Sedang
+JJI-02365,Agronomi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6667,12.25,0.0,31.0,Sedang
+JJI-03385,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.9167,0.2,31.0,Sedang
+JJI-02939,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.875,0.0,31.0,Sedang
+JJI-03744,Keperawatan Hewan,Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,15.0143,-0.3333,30.9,Sedang
+JJI-03238,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.3333,0.2,30.6,Sedang
+JJI-00365,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,13.98,0.0,30.6,Sedang
+JJI-02916,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,11.2333,-0.1667,30.6,Sedang
+JJI-01336,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.7,0.0,30.4,Sedang
+JJI-00874,Kesehatan Gigi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7333,11.3917,0.0357,30.4,Sedang
+JJI-03442,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.6458,0.3333,30.4,Sedang
+JJI-03047,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.2917,0.2,30.4,Sedang
+JJI-03660,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.875,0.4,30.4,Sedang
+JJI-00632,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.6,-0.1667,30.3,Sedang
+JJI-03127,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.0208,-0.5,30.3,Sedang
+JJI-00643,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,11.4167,0.2,30.2,Sedang
+JJI-00982,Manajemen (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9,11.2,0.2,30.2,Sedang
+JJI-00646,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,11.9167,0.2,30.1,Sedang
+JJI-01756,Teknik Informatika,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,1.0,14.2,0.0,30.1,Sedang
+JJI-00350,Pekerjaan Sosial (kelas malam),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.625,-0.1667,29.9,Sedang
+JJI-01595,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.125,0.4,29.9,Sedang
+JJI-01408,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.5,0.0,29.8,Sedang
+JJI-00437,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,10.875,0.3333,29.7,Sedang
+JJI-00719,Manajemen (kelas malam),Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,16.7,0.0,29.7,Sedang
+JJI-01706,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.5,12.5,0.2,29.6,Sedang
+JJI-03895,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6429,13.535,0.1429,29.4,Sedang
+JJI-01162,Keperawatan,Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,13.1312,0.4286,29.3,Sedang
+JJI-00816,Manajemen,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.7333,-0.4,29.3,Sedang
+JJI-01142,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.7,-0.4,29.3,Sedang
+JJI-02492,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.15,-0.6,29.2,Sedang
+JJI-03595,Pengelolaan Kuda (Equinculture),Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.45,0.6,29.1,Sedang
+JJI-00594,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,13.2,-0.1667,29.1,Sedang
+JJI-02340,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.7571,0.0,29.1,Sedang
+JJI-01040,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.4667,0.0,29.0,Sedang
+JJI-03330,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.2143,-0.4,28.8,Sedang
+JJI-00800,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.4583,-0.3333,28.7,Sedang
+JJI-03232,Manajemen,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.375,0.0,28.6,Sedang
+JJI-02216,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8125,11.8,-0.0333,28.5,Sedang
+JJI-02762,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,10.9167,-0.0317,28.5,Sedang
+JJI-03390,Pekerjaan Sosial,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5833,11.45,0.5,28.3,Sedang
+JJI-02990,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.475,0.1667,28.3,Sedang
+JJI-02747,Keperawatan,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8667,12.1049,-0.25,28.3,Sedang
+JJI-03464,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.0667,0.3333,28.2,Sedang
+JJI-01734,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8182,11.6667,0.0,28.2,Sedang
+JJI-00542,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.0,-0.6,28.2,Sedang
+JJI-00465,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,10.5,-0.1667,28.2,Sedang
+JJI-01121,Pekerjaan Sosial,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,16.075,0.1667,28.1,Sedang
+JJI-01909,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.6667,0.0,28.1,Sedang
+JJI-00578,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,10.4,0.0,27.9,Sedang
+JJI-02599,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,12.5,0.4,27.9,Sedang
+JJI-02569,Manajemen,Jalur Usia >23 Tahun,41+,Perlu perhatian (1 masalah),Ya,Ya,Tidak,1.0,11.9,0.0,27.8,Sedang
+JJI-00052,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,11.8333,0.0,27.8,Sedang
+JJI-04089,Manajemen (kelas malam),Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.85,10.4097,0.1,27.7,Sedang
+JJI-01154,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,13.35,0.0,27.5,Sedang
+JJI-02092,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.7667,-0.4,27.4,Sedang
+JJI-04258,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.7083,0.2,27.2,Sedang
+JJI-04116,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.5833,-0.5,27.1,Sedang
+JJI-04038,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.5,10.7,0.6667,26.9,Sedang
+JJI-00620,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.2083,-0.1667,26.9,Sedang
+JJI-00070,Pariwisata,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.4,-0.1667,26.9,Sedang
+JJI-03925,Desain Animasi & Multimedia,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8696,11.6227,-0.0985,26.8,Sedang
+JJI-01606,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8636,12.0852,-0.1167,26.7,Sedang
+JJI-00368,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6,11.1,0.8,26.6,Sedang
+JJI-02722,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.375,0.2,26.3,Sedang
+JJI-00507,Teknologi Produksi Biofuel,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,14.275,-0.2857,26.3,Sedang
+JJI-01771,Pendidikan Dasar,Kontingen Khusus (Kepulauan),23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,13.125,0.1667,26.2,Sedang
+JJI-00389,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.7833,0.0,26.1,Sedang
+JJI-00401,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,11.4,-0.1667,26.1,Sedang
+JJI-02676,Pariwisata,Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,10.9583,-0.3333,26.1,Sedang
+JJI-03135,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.8531,-0.375,26.0,Sedang
+JJI-04117,Keperawatan Hewan,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,1.0,13.6667,0.0,26.0,Sedang
+JJI-04144,Kesehatan Gigi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.275,0.1607,25.9,Sedang
+JJI-02304,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.2738,0.0,25.9,Sedang
+JJI-03888,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6667,10.575,0.0,25.8,Sedang
+JJI-03407,Pendidikan Dasar,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.0,0.0,25.8,Sedang
+JJI-01711,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8462,12.125,0.3333,25.8,Sedang
+JJI-02825,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.7083,0.0,25.8,Sedang
+JJI-03395,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,13.65,-0.2,25.7,Sedang
+JJI-01458,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,13.0092,-0.1071,25.7,Sedang
+JJI-03769,Pendidikan Dasar,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.6,0.0,25.6,Sedang
+JJI-01468,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,13.725,0.0,25.6,Sedang
+JJI-04244,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.0446,0.0,25.5,Sedang
+JJI-00819,Keperawatan,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Tidak,Tidak,Ya,0.9333,13.3136,-0.125,25.5,Sedang
+JJI-01465,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.1167,-0.1667,25.4,Sedang
+JJI-01795,Keperawatan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.7292,0.2857,25.3,Sedang
+JJI-01602,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.2679,-0.3333,25.2,Sedang
+JJI-03416,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,14.1617,-0.1071,25.2,Sedang
+JJI-03068,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.11,0.0,25.2,Sedang
+JJI-04080,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,13.1857,-0.1667,25.2,Sedang
+JJI-03628,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,11.6833,-0.1667,25.1,Sedang
+JJI-03682,Manajemen,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.1,0.0,25.1,Sedang
+JJI-01488,Manajemen Periklanan & Pemasaran,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,11.7429,-0.1667,25.1,Sedang
+JJI-01317,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,11.875,0.2,24.9,Sedang
+JJI-04374,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,11.9167,0.6667,24.8,Sedang
+JJI-03557,Pariwisata,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.4833,-0.3333,24.7,Sedang
+JJI-03397,Manajemen,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,6.625,0.8,24.7,Sedang
+JJI-00899,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,10.9167,-0.3333,24.6,Sedang
+JJI-02590,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.2,0.0,24.5,Sedang
+JJI-02213,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.1,-0.4,24.3,Sedang
+JJI-01596,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.75,0.0,24.0,Sedang
+JJI-02838,Manajemen,Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.7667,0.4,24.0,Sedang
+JJI-01315,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.1667,-0.5,24.0,Sedang
+JJI-01073,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.5,0.1667,23.9,Sedang
+JJI-02420,Agronomi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9231,13.4857,-0.1667,23.8,Sedang
+JJI-02152,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.6667,12.0417,0.3333,23.8,Sedang
+JJI-01578,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.125,0.0,23.8,Sedang
+JJI-03759,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.9,-0.1667,23.7,Sedang
+JJI-03123,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7,11.125,0.2,23.7,Sedang
+JJI-04058,Agronomi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.119,-0.3333,23.5,Sedang
+JJI-04187,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.875,0.2,23.5,Sedang
+JJI-00329,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.0,0.0,23.5,Sedang
+JJI-01422,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,12.1333,-0.4,23.5,Sedang
+JJI-01671,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.75,0.0,23.3,Sedang
+JJI-00610,Keperawatan,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7143,11.98,0.0,23.2,Sedang
+JJI-00341,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.0,-0.2,23.2,Sedang
+JJI-04392,Keperawatan,Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,12.9124,-0.125,23.2,Sedang
+JJI-03203,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,12.0833,-0.5,23.0,Sedang
+JJI-04413,Desain Komunikasi,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,12.6,0.1667,23.0,Sedang
+JJI-01807,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.65,-0.4,22.8,Sedang
+JJI-00171,Keperawatan Hewan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,10.875,0.0,22.8,Sedang
+JJI-01255,Keperawatan Hewan,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.4,7.375,0.8,22.8,Sedang
+JJI-01089,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,12.3667,0.1429,22.8,Sedang
+JJI-00574,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.6167,0.4,22.7,Sedang
+JJI-00928,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,31-40,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8667,11.7708,-0.0179,22.6,Sedang
+JJI-02869,Manajemen,Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,13.75,0.2,22.6,Sedang
+JJI-03283,Manajemen,Pemegang Ijazah/Diploma Lain,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.9111,0.1818,22.5,Sedang
+JJI-03911,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.6333,-0.1667,22.3,Sedang
+JJI-02686,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.4,-0.4,22.3,Sedang
+JJI-00849,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,13.4821,0.2,22.2,Sedang
+JJI-02778,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8182,13.175,0.0333,22.1,Sedang
+JJI-01433,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,10.9167,-0.1667,22.0,Sedang
+JJI-03268,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.7333,0.4,21.9,Sedang
+JJI-03666,Agronomi,Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.5089,-0.1667,21.9,Sedang
+JJI-02069,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.8333,0.0,21.3,Sedang
+JJI-02141,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,12.5571,-0.125,21.3,Sedang
+JJI-01768,Pariwisata,Pemegang Ijazah/Diploma Lain,26-30,Perlu perhatian (1 masalah),Tidak,Tidak,Tidak,1.0,14.3958,0.0,21.2,Sedang
+JJI-03543,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.5,0.0,21.1,Sedang
+JJI-03811,Keperawatan,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7143,12.86,0.0,21.1,Sedang
+JJI-03149,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,10.9583,-0.2,20.7,Sedang
+JJI-02600,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.7,0.0,20.7,Sedang
+JJI-02810,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7143,12.7458,0.2857,20.5,Sedang
+JJI-03092,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,13.0167,0.0,20.4,Sedang
+JJI-02897,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.625,0.2,20.3,Sedang
+JJI-03008,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.6,10.875,0.4,20.2,Sedang
+JJI-00739,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.913,11.5909,-0.0076,20.0,Rendah
+JJI-01990,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.75,11.725,0.1667,20.0,Sedang
+JJI-01666,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,14.5,-0.1667,19.9,Rendah
+JJI-01653,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.6,0.0,19.8,Rendah
+JJI-03737,Teknik Informatika,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9,12.9167,-0.2,19.8,Rendah
+JJI-00595,Agronomi,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9167,13.6667,-0.1667,19.8,Rendah
+JJI-03742,Teknik Informatika,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,13.381,0.4,19.8,Rendah
+JJI-02285,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.4643,-0.3333,19.7,Rendah
+JJI-03903,Manajemen,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,13.0286,0.0,19.6,Rendah
+JJI-03197,Agronomi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.0714,0.0,19.5,Rendah
+JJI-00720,Manajemen Periklanan & Pemasaran,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.1,0.0,19.4,Rendah
+JJI-02187,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,11.5714,-0.1667,19.3,Rendah
+JJI-02101,Jurnalistik & Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.8167,0.0,19.3,Rendah
+JJI-00939,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.4583,-0.3333,19.3,Rendah
+JJI-02302,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.5667,-0.1667,19.2,Rendah
+JJI-02196,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,12.1429,0.3333,19.2,Rendah
+JJI-02775,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8571,12.6514,0.2857,19.2,Rendah
+JJI-01425,Pengelolaan Kuda (Equinculture),Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,13.45,0.2,19.1,Rendah
+JJI-00176,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7,12.5833,0.2,19.1,Rendah
+JJI-02635,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.8571,-0.3333,18.9,Rendah
+JJI-03841,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,11.4167,-0.5,18.8,Rendah
+JJI-01185,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.7658,-0.1071,18.8,Rendah
+JJI-01507,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,10.5,0.0,18.8,Rendah
+JJI-04393,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.125,0.2,18.7,Rendah
+JJI-00662,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,11.7542,0.1429,18.6,Rendah
+JJI-03980,Jurnalistik & Komunikasi,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.8,0.0,18.5,Rendah
+JJI-00331,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,12.3333,0.1429,18.5,Rendah
+JJI-01212,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.75,11.125,0.1667,18.5,Rendah
+JJI-02973,Keperawatan Hewan,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.5,0.2,18.4,Rendah
+JJI-02630,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,13.5417,0.2,18.4,Rendah
+JJI-02537,Pengelolaan Kuda (Equinculture),Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,15.0,0.0,18.4,Rendah
+JJI-00089,Manajemen,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,13.9,0.2,18.4,Rendah
+JJI-00545,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,12.9,0.0,18.3,Rendah
+JJI-01455,Teknik Informatika,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.925,0.0,18.3,Rendah
+JJI-04229,Pekerjaan Sosial (kelas malam),Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.3,0.0,18.2,Rendah
+JJI-03615,Teknik Informatika,Mahasiswa Internasional,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9286,12.4881,0.125,18.1,Rendah
+JJI-02710,Kesehatan Gigi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,11.9964,-0.125,18.0,Rendah
+JJI-03411,Manajemen Periklanan & Pemasaran,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.7143,-0.3333,18.0,Rendah
+JJI-00293,Agronomi,Pemegang Ijazah/Diploma Lain,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.2143,-0.1667,17.9,Rendah
+JJI-00320,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.4202,-0.1071,17.9,Rendah
+JJI-01291,Teknik Informatika,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9091,13.5625,0.2,17.9,Rendah
+JJI-04403,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.8,0.1667,17.7,Rendah
+JJI-02584,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.625,0.0,17.7,Rendah
+JJI-03134,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,13.5438,0.1429,17.4,Rendah
+JJI-02371,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.5317,-0.1667,17.3,Rendah
+JJI-01708,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.5,0.0,16.9,Rendah
+JJI-00376,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,41+,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9091,12.35,0.0,16.9,Rendah
+JJI-01597,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.6667,-0.1071,16.9,Rendah
+JJI-01757,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.8696,12.4864,0.0758,16.7,Rendah
+JJI-03832,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.225,0.0,16.7,Rendah
+JJI-04322,Manajemen (kelas malam),Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.75,0.0,16.7,Rendah
+JJI-00404,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.375,-0.3333,16.6,Rendah
+JJI-01609,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,13.1333,-0.1667,16.5,Rendah
+JJI-02054,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,13.2533,0.1429,16.5,Rendah
+JJI-00766,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,10.7,0.0,16.5,Rendah
+JJI-02265,Pendidikan Dasar,Seleksi Reguler,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.1,0.0,16.4,Rendah
+JJI-00372,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.0417,0.0,16.3,Rendah
+JJI-04127,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7,12.75,0.2,16.3,Rendah
+JJI-02901,Manajemen (kelas malam),Pindahan / Ganti Program,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9583,11.4688,0.0833,16.3,Rendah
+JJI-04339,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7,12.5833,0.2,16.1,Rendah
+JJI-03530,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,13.0875,0.1607,16.0,Rendah
+JJI-03789,Agronomi,Pemegang Ijazah/Diploma Lain,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.4167,0.1667,15.9,Rendah
+JJI-02398,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.9,0.0,15.9,Rendah
+JJI-01149,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,12.0833,0.0,15.7,Rendah
+JJI-03816,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,12.7056,-0.125,15.7,Rendah
+JJI-03891,Pendidikan Dasar,Seleksi Reguler,20-22,Perlu perhatian (1 masalah),Ya,Ya,Tidak,0.9286,12.75,-0.1429,15.7,Rendah
+JJI-04125,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7,12.45,0.6,15.6,Rendah
+JJI-04275,Pariwisata,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.8833,-0.1667,15.5,Rendah
+JJI-03148,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,11.9057,0.1429,15.5,Rendah
+JJI-03297,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7857,12.37,0.1429,15.5,Rendah
+JJI-00495,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,11.75,0.0,15.2,Rendah
+JJI-02647,Desain Komunikasi,Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,12.7143,-0.125,15.2,Rendah
+JJI-02832,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.8,-0.2,15.1,Rendah
+JJI-02478,Pariwisata,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.4333,-0.1667,15.1,Rendah
+JJI-03027,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.5714,0.0,15.0,Rendah
+JJI-03701,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.1167,-0.1667,15.0,Rendah
+JJI-04192,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.0833,-0.3333,14.9,Rendah
+JJI-03076,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.2,0.0,14.9,Rendah
+JJI-00693,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.7857,-0.3333,14.8,Rendah
+JJI-00455,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.525,-0.2,14.8,Rendah
+JJI-01145,Manajemen,Kontingen Khusus (Kepulauan),20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7,12.3125,0.2,14.7,Rendah
+JJI-00467,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9286,13.4792,0.1667,14.7,Rendah
+JJI-01196,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9286,12.1071,0.1429,14.4,Rendah
+JJI-03402,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,13.5857,-0.1667,14.3,Rendah
+JJI-01565,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,13.5833,-0.3333,14.2,Rendah
+JJI-01499,Agronomi,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.1667,0.1667,14.1,Rendah
+JJI-00767,Pengelolaan Kuda (Equinculture),Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.2,0.0,14.1,Rendah
+JJI-01348,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8571,12.77,0.2857,14.1,Rendah
+JJI-01471,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.7,-0.2,14.0,Rendah
+JJI-03175,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,11.0833,0.1667,13.9,Rendah
+JJI-01781,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.525,0.0,13.8,Rendah
+JJI-01287,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,12.5875,-0.1667,13.8,Rendah
+JJI-04066,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,13.0833,-0.1667,13.8,Rendah
+JJI-02206,Teknik Informatika,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9231,14.1339,0.1429,13.7,Rendah
+JJI-01377,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.25,-0.2,13.6,Rendah
+JJI-01355,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,10.8833,0.0,13.4,Rendah
+JJI-03114,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.4875,0.0,13.4,Rendah
+JJI-01174,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.3333,0.2,13.4,Rendah
+JJI-02621,Desain Komunikasi,Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9048,11.7278,0.0091,13.3,Rendah
+JJI-00128,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,13.1,0.0,13.0,Rendah
+JJI-02651,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8667,13.5994,0.2857,12.9,Rendah
+JJI-02669,Keperawatan,Jalur Usia >23 Tahun,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,11.6357,0.0,12.8,Rendah
+JJI-03887,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,14.75,-0.1667,12.7,Rendah
+JJI-01977,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.7857,12.7357,0.4286,12.6,Rendah
+JJI-00251,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.4,0.0,12.6,Rendah
+JJI-04167,Manajemen (kelas malam),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,12.025,0.0,12.6,Rendah
+JJI-01457,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.5,-0.2,12.6,Rendah
+JJI-04145,Kesehatan Gigi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,11.291,0.1429,12.3,Rendah
+JJI-02131,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.375,-0.3333,12.3,Rendah
+JJI-00779,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,13.0833,0.0,12.3,Rendah
+JJI-03654,Keperawatan Hewan,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.1778,-0.1667,12.2,Rendah
+JJI-03509,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.75,0.0,12.1,Rendah
+JJI-00022,Kesehatan Gigi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.4312,0.0,12.1,Rendah
+JJI-00020,Pendidikan Dasar,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,12.5833,0.0,12.0,Rendah
+JJI-01337,Keperawatan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8571,12.1429,0.0,12.0,Rendah
+JJI-01816,Agronomi,Jalur Usia >23 Tahun,23-25,Perlu perhatian (1 masalah),Ya,Ya,Tidak,1.0,14.3081,0.0,12.0,Rendah
+JJI-01435,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,12.8458,-0.1071,11.8,Rendah
+JJI-01612,Keperawatan Hewan,Kontingen Khusus (Kepulauan),17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.7,0.0,11.6,Rendah
+JJI-00997,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7857,14.005,0.1429,11.6,Rendah
+JJI-00480,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,12.5,0.0,11.5,Rendah
+JJI-03532,Agronomi,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8947,13.2222,0.0111,11.4,Rendah
+JJI-03099,Pekerjaan Sosial,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,11.6333,0.1667,11.4,Rendah
+JJI-02658,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,12.25,0.0,11.3,Rendah
+JJI-01271,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.5143,0.1667,11.2,Rendah
+JJI-00935,Keperawatan,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,11.7057,0.0,11.2,Rendah
+JJI-03360,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.5,0.2,11.1,Rendah
+JJI-02629,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,11.275,0.0,11.1,Rendah
+JJI-02818,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,12.4286,0.0,11.0,Rendah
+JJI-02552,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,13.4167,0.0,11.0,Rendah
+JJI-01356,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,13.0476,-0.1667,10.9,Rendah
+JJI-01156,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.125,0.0,10.9,Rendah
+JJI-03274,Keperawatan,Pindahan / Ganti Program,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,12.0,0.0,10.8,Rendah
+JJI-01215,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9286,12.881,0.1429,10.7,Rendah
+JJI-01968,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.9667,0.4,10.7,Rendah
+JJI-03784,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7857,12.8629,0.1429,10.7,Rendah
+JJI-02019,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,12.3,0.0,10.7,Rendah
+JJI-02824,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,13.9429,-0.1667,10.7,Rendah
+JJI-00216,Kesehatan Gigi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,12.7188,0.1429,10.7,Rendah
+JJI-01587,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,12.125,0.0,10.7,Rendah
+JJI-04054,Desain Komunikasi,Pindahan / Ganti Program,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.575,0.1667,10.5,Rendah
+JJI-00030,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,13.325,0.0,10.5,Rendah
+JJI-02829,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.5833,0.0,10.4,Rendah
+JJI-01694,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.1,-0.2,10.3,Rendah
+JJI-04104,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,11.475,-0.2,10.2,Rendah
+JJI-04134,Pariwisata,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8333,11.9,0.0,10.2,Rendah
+JJI-03042,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8667,13.0736,0.0179,10.2,Rendah
+JJI-01113,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.7857,12.56,0.1429,10.1,Rendah
+JJI-02374,Manajemen Periklanan & Pemasaran,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,13.0,0.1667,10.1,Rendah
+JJI-04285,Kesehatan Gigi,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9286,11.3571,0.1429,10.0,Rendah
+JJI-00028,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.8333,-0.2,10.0,Rendah
+JJI-00501,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.9667,0.4,10.0,Rendah
+JJI-03314,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.6286,-0.1667,9.9,Rendah
+JJI-03525,Manajemen (kelas malam),Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.4,0.0,9.9,Rendah
+JJI-04032,Desain Animasi & Multimedia,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9565,13.0758,-0.0909,9.9,Rendah
+JJI-02534,Pengelolaan Kuda (Equinculture),Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,12.9167,0.0,9.9,Rendah
+JJI-04026,Manajemen (kelas malam),Seleksi Reguler,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,11.2,0.0,9.7,Rendah
+JJI-02247,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8571,12.4726,0.0,9.7,Rendah
+JJI-04219,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.4167,0.0,9.7,Rendah
+JJI-01208,Agronomi,Jalur Usia >23 Tahun,31-40,Perlu perhatian (1 masalah),Ya,Ya,Tidak,1.0,12.8875,0.0,9.6,Rendah
+JJI-03451,Manajemen (kelas malam),Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.2054,0.0,9.6,Rendah
+JJI-00241,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9286,11.967,0.1429,9.5,Rendah
+JJI-00139,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8,13.0404,0.1607,9.3,Rendah
+JJI-03109,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.8333,0.0,9.3,Rendah
+JJI-02942,Kesehatan Gigi,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.3643,0.0,9.2,Rendah
+JJI-00382,Keperawatan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9333,13.5,0.1429,9.1,Rendah
+JJI-00614,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9,12.1,0.2,9.0,Rendah
+JJI-00810,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.3333,0.0,9.0,Rendah
+JJI-02998,Manajemen,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8,11.25,0.0,8.9,Rendah
+JJI-03559,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.4048,0.0,8.7,Rendah
+JJI-00773,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8667,13.3529,0.0179,8.7,Rendah
+JJI-03061,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.5,0.0,8.7,Rendah
+JJI-02808,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.3839,0.0,8.6,Rendah
+JJI-02454,Desain Animasi & Multimedia,Mahasiswa Internasional,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.0833,0.0,8.4,Rendah
+JJI-03892,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.7976,0.0,8.4,Rendah
+JJI-00938,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.7143,0.0,8.4,Rendah
+JJI-03155,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,11.9833,0.0,8.3,Rendah
+JJI-02306,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,11.9167,0.0,8.2,Rendah
+JJI-01634,Pekerjaan Sosial (kelas malam),Pindahan / Ganti Program,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.0629,0.0,8.2,Rendah
+JJI-01397,Pengelolaan Kuda (Equinculture),Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.1667,0.0,8.2,Rendah
+JJI-02784,Pekerjaan Sosial,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9167,12.9333,0.1667,8.2,Rendah
+JJI-00450,Pariwisata,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.8333,12.8,0.0,8.1,Rendah
+JJI-03441,Kesehatan Gigi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9286,11.9821,0.1429,8.1,Rendah
+JJI-03351,Pekerjaan Sosial (kelas malam),Seleksi Reguler,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,11.75,0.0,8.1,Rendah
+JJI-01830,Manajemen,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9,11.7857,0.2,8.0,Rendah
+JJI-01322,Pendidikan Dasar,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,13.75,0.0,8.0,Rendah
+JJI-03295,Keperawatan,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,12.3583,0.0,7.9,Rendah
+JJI-00583,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.0595,0.0,7.9,Rendah
+JJI-01187,Keperawatan,Pemegang Ijazah/Diploma Lain,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.8341,0.0,7.9,Rendah
+JJI-04370,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,11.8333,0.0,7.8,Rendah
+JJI-04101,Kesehatan Gigi,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.4792,0.0,7.8,Rendah
+JJI-02324,Keperawatan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.0857,0.0,7.8,Rendah
+JJI-00099,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.0,0.0,7.8,Rendah
+JJI-01505,Keperawatan,Jalur Usia >23 Tahun,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,12.4571,0.0,7.7,Rendah
+JJI-01571,Pekerjaan Sosial (kelas malam),Seleksi Reguler,41+,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.9286,0.0,7.7,Rendah
+JJI-04044,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,12.2857,0.0,7.7,Rendah
+JJI-02261,Manajemen Periklanan & Pemasaran,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,12.9196,0.0,7.5,Rendah
+JJI-00823,Keperawatan Hewan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,13.9571,0.0,7.4,Rendah
+JJI-03592,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,13.1543,0.0,7.1,Rendah
+JJI-03417,Jurnalistik & Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.3333,0.0,6.9,Rendah
+JJI-00116,Keperawatan,Pindahan / Ganti Program,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.9286,12.3083,0.1429,6.9,Rendah
+JJI-01738,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8667,12.8929,0.0179,6.9,Rendah
+JJI-02468,Agronomi,Pemegang Ijazah/Diploma Lain,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.9167,13.0667,0.1667,6.7,Rendah
+JJI-03294,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,13.6814,0.0,6.5,Rendah
+JJI-04073,Pekerjaan Sosial,Jalur Usia >23 Tahun,31-40,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,13.0833,0.0,6.5,Rendah
+JJI-00817,Desain Komunikasi,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.0,0.0,6.4,Rendah
+JJI-04238,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.8571,13.0167,0.0,6.4,Rendah
+JJI-02733,Keperawatan,Seleksi Reguler,20-22,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,14.0143,0.0,6.3,Rendah
+JJI-03001,Keperawatan,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,12.7143,0.0,6.3,Rendah
+JJI-00644,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,14.2688,0.0,6.3,Rendah
+JJI-00330,Keperawatan Hewan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.8,0.0,6.3,Rendah
+JJI-03470,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.875,12.7714,0.0,5.8,Rendah
+JJI-04088,Keperawatan,Jalur Usia >23 Tahun,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.875,13.29,0.0,5.7,Rendah
+JJI-00182,Manajemen (kelas malam),Pemegang Ijazah/Diploma Lain,26-30,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,12.9167,0.0,5.6,Rendah
+JJI-00258,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.1667,0.0,5.4,Rendah
+JJI-01036,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,14.1667,0.0,5.4,Rendah
+JJI-02628,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.2,0.0,5.3,Rendah
+JJI-00287,Desain Komunikasi,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.4167,0.0,5.1,Rendah
+JJI-00722,Pariwisata,Seleksi Reguler,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,1.0,12.5,0.0,4.9,Rendah
+JJI-04126,Keperawatan,Pindahan / Ganti Program,23-25,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.875,11.9714,0.0,4.7,Rendah
+JJI-04157,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.875,13.2429,0.0,4.5,Rendah
+JJI-03369,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,0.875,14.06,0.0,4.4,Rendah
+JJI-00279,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Ya,1.0,13.7861,0.0,4.0,Rendah
+JJI-01651,Keperawatan,Seleksi Reguler,17-19,Aman (lunas & tidak menunggak),Ya,Tidak,Tidak,0.875,14.5143,0.0,3.1,Rendah
