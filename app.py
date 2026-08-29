@@ -95,30 +95,43 @@ st.markdown(
 # ======================================================================================
 # Pemuatan artefak
 # ======================================================================================
+def sidik_berkas(path: Path) -> tuple:
+    """Sidik jari berkas (ukuran + waktu ubah) sebagai kunci cache.
+
+    Tanpa ini, cache Streamlit hanya berkunci pada kode fungsinya. Ketika artefak
+    diperbarui (model dilatih ulang lalu di-push), aplikasi yang sudah berjalan akan
+    tetap memakai model dan metrik lama sampai container-nya benar-benar dimatikan.
+    """
+    if not path.exists():
+        return (str(path), 0, 0)
+    stat = path.stat()
+    return (str(path), stat.st_size, int(stat.st_mtime))
+
+
 @st.cache_resource(show_spinner="Memuat model ...")
-def load_model():
+def load_model(sidik: tuple):
     if not MODEL_PATH.exists():
         return None
     return joblib.load(MODEL_PATH)
 
 
 @st.cache_data(show_spinner=False)
-def load_metadata() -> dict:
+def load_metadata(sidik: tuple) -> dict:
     if not META_PATH.exists():
-        return {"ambang_operasional": 0.30, "metrik_data_uji": {}}
+        return {"ambang_operasional": 0.35, "metrik_data_uji": {}}
     return json.loads(META_PATH.read_text(encoding="utf-8"))
 
 
 @st.cache_data(show_spinner=False)
-def load_scored() -> pd.DataFrame | None:
+def load_scored(sidik: tuple) -> pd.DataFrame | None:
     if not SCORED_PATH.exists():
         return None
     return pd.read_csv(SCORED_PATH)
 
 
-model = load_model()
-meta = load_metadata()
-AMBANG = float(meta.get("ambang_operasional", 0.30))
+model = load_model(sidik_berkas(MODEL_PATH))
+meta = load_metadata(sidik_berkas(META_PATH))
+AMBANG = float(meta.get("ambang_operasional", 0.35))
 
 if model is None:
     st.error(
@@ -489,7 +502,7 @@ elif halaman == "Prediksi Massal (CSV)":
 # Halaman 3 — Monitoring Angkatan
 # ======================================================================================
 elif halaman == "Monitoring Angkatan":
-    scored = load_scored()
+    scored = load_scored(sidik_berkas(SCORED_PATH))
     if scored is None:
         st.warning("Berkas `data/students_scored.csv` belum tersedia. "
                    "Jalankan `notebook.ipynb` terlebih dahulu.")
