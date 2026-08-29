@@ -8,10 +8,11 @@
 CREATE TABLE students (
     student_id              TEXT PRIMARY KEY,
     status                  TEXT,           -- Dropout / Enrolled / Graduate
-    is_dropout              SMALLINT,       -- 1 bila status = Dropout
-    risk_score              NUMERIC(6, 2),  -- probabilitas dropout x 100 (out-of-fold)
+    is_dropout              SMALLINT,       -- 1 = Dropout, 0 = Graduate, NULL untuk Enrolled
+    risk_score              NUMERIC(6, 2),  -- probabilitas dropout x 100
     risk_band               TEXT,           -- Rendah / Sedang / Tinggi / Sangat Tinggi
-    is_flagged              SMALLINT,       -- 1 bila risiko >= ambang operasional 0,30
+    is_flagged              SMALLINT,       -- 1 bila risiko >= ambang operasional 0,35
+    sumber_skor             TEXT,           -- out-of-fold (berlabel) / prediksi (mahasiswa aktif)
     program_studi           TEXT,
     jalur_masuk             TEXT,
     jalur_masuk_detail      TEXT,
@@ -57,11 +58,14 @@ COPY feature_importance FROM '/seed/feature_importance.csv' WITH (FORMAT csv, HE
 -- 3. View bantu
 -- =====================================================================================
 
--- Mahasiswa yang statusnya sudah final (Dropout / Graduate) -> dipakai untuk dropout rate.
+-- Mahasiswa yang status akhirnya sudah pasti (Dropout / Graduate).
+-- Seluruh perhitungan dropout rate memakai view ini, sama seperti pada notebook:
+-- mahasiswa Enrolled tidak diikutkan karena hasil akhirnya belum diketahui.
 CREATE VIEW students_final AS
 SELECT * FROM students WHERE status IN ('Dropout', 'Graduate');
 
--- Mahasiswa yang masih aktif kuliah -> target intervensi semester berjalan.
+-- Mahasiswa yang masih aktif kuliah -> sasaran prediksi & intervensi semester berjalan.
+-- Skor mereka berasal dari prediksi model, bukan dari data historis berlabel.
 CREATE VIEW students_active AS
 SELECT * FROM students WHERE status = 'Enrolled';
 

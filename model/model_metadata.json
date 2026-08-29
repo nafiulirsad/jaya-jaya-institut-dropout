@@ -1,10 +1,11 @@
 {
   "nama_model": "Random Forest",
   "algoritma": "RandomForestClassifier",
-  "target": "Status == 'Dropout' (klasifikasi biner)",
-  "jumlah_data_latih": 4424,
-  "proporsi_kelas_positif": 0.3212,
-  "ambang_operasional": 0.3,
+  "target": "1 = Dropout, 0 = Graduate (mahasiswa berstatus Enrolled tidak dilibatkan)",
+  "jumlah_data_latih": 3630,
+  "proporsi_kelas_positif": 0.3915,
+  "jumlah_mahasiswa_enrolled_dipisah": 794,
+  "ambang_operasional": 0.35,
   "alasan_ambang": "Memaksimalkan F2-score; biaya false negative jauh lebih tinggi daripada false positive pada kasus retensi mahasiswa.",
   "fitur_kategorikal": [
     "Marital_status",
@@ -63,21 +64,21 @@
   ],
   "hyperparameter": {
     "class_weight": "balanced",
-    "max_depth": 12,
-    "max_features": "log2",
-    "min_samples_leaf": 1,
-    "min_samples_split": 5,
-    "n_estimators": 861
+    "max_depth": 16,
+    "max_features": "sqrt",
+    "min_samples_leaf": 4,
+    "min_samples_split": 6,
+    "n_estimators": 706
   },
   "metrik_data_uji": {
-    "roc_auc": 0.9336,
-    "pr_auc": 0.9003,
-    "akurasi_ambang_operasional": 0.8316,
-    "precision_ambang_operasional": 0.6762,
-    "recall_ambang_operasional": 0.912,
-    "f2_ambang_operasional": 0.8525
+    "roc_auc": 0.9709,
+    "pr_auc": 0.9692,
+    "akurasi_ambang_operasional": 0.8912,
+    "precision_ambang_operasional": 0.8078,
+    "recall_ambang_operasional": 0.9472,
+    "f2_ambang_operasional": 0.9156
   },
-  "roc_auc_out_of_fold": 0.9208,
+  "roc_auc_out_of_fold": 0.9562,
   "band_risiko": [
     {
       "band": "Rendah",

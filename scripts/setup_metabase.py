@@ -45,9 +45,10 @@ DB_DETAILS = {
 DASHBOARD_NAME = "Student Performance Dashboard - Jaya Jaya Institut"
 DASHBOARD_DESC = (
     "Monitoring performa mahasiswa dan deteksi dini dropout Jaya Jaya Institut. "
-    "Sumber data: 4.424 mahasiswa (1.421 dropout / 32,12%). "
-    "Panel terakhir menampilkan skor risiko hasil model machine learning "
-    "beserta daftar prioritas intervensi."
+    "Dropout rate dihitung pada 3.630 mahasiswa yang status akhirnya sudah pasti "
+    "(1.421 dropout / 39,15%); 794 mahasiswa yang masih aktif kuliah ditampilkan "
+    "terpisah sebagai sasaran prediksi. Panel terakhir menampilkan skor risiko hasil "
+    "model machine learning beserta daftar prioritas intervensi."
 )
 
 RED = "#E4572E"
@@ -56,7 +57,7 @@ GREY = "#5C6672"
 GREEN = "#2E9E5B"
 ORANGE = "#F2A541"
 
-AVG_LINE = 32.12  # dropout rate institut (garis pembanding pada setiap grafik)
+AVG_LINE = 39.15  # dropout rate kohort berlabel (garis pembanding pada setiap grafik)
 
 
 # --------------------------------------------------------------------------------------
@@ -159,16 +160,20 @@ def chart(name, query, dimension, metric, description, display="bar",
 RATE_TEMPLATE = """SELECT {col} AS "{dim}",
        ROUND(100.0 * SUM(is_dropout) / COUNT(*), 2) AS "Dropout Rate (%)",
        COUNT(*) AS "Jumlah Mahasiswa"
-FROM students
+FROM students_final
 WHERE {col} IS NOT NULL{extra}
 GROUP BY 1
 ORDER BY {order}"""
 
 
 def rate_card(name, col, dim, description, order="2 DESC", display="bar",
-              color=RED, extra_where="", order_expr=None):
+              color=RED, extra_where="", order_expr=None, min_n=None):
     """Kartu dropout rate per kategori, lengkap dengan garis pembanding rata-rata institut."""
     sql = RATE_TEMPLATE.format(col=col, dim=dim, order=order, extra=extra_where)
+    if min_n:
+        # kategori dengan populasi sangat kecil dibuang, bukan dilipat menjadi "Other",
+        # agar persentase yang ditampilkan tetap dapat dipercaya
+        sql = sql.replace("GROUP BY 1", f"GROUP BY 1\nHAVING COUNT(*) >= {min_n}")
     if order_expr:
         # kategori berjenjang diurutkan sesuai tingkatannya, bukan sesuai besar nilainya
         sql = sql.rsplit("ORDER BY", 1)[0] + f"ORDER BY {order_expr}"
@@ -194,30 +199,32 @@ CARDS = [
     # -------------------------------------------------------------- Seksi 1: KPI
     kpi("Total Mahasiswa",
         'SELECT COUNT(*) AS "Total Mahasiswa" FROM students',
-        "Seluruh mahasiswa pada basis data institut (angkatan yang tercatat).",
+        "Seluruh mahasiswa pada basis data institut, termasuk yang masih aktif kuliah.",
         color=BLUE),
     kpi("Mahasiswa Dropout",
-        'SELECT SUM(is_dropout) AS "Mahasiswa Dropout" FROM students',
-        "Jumlah mahasiswa yang berhenti kuliah sebelum lulus.",
+        'SELECT SUM(is_dropout) AS "Mahasiswa Dropout" FROM students_final',
+        "Mahasiswa yang berhenti kuliah sebelum lulus (dari kelompok yang status akhirnya pasti).",
         color=RED),
     kpi("Dropout Rate (%)",
-        'SELECT ROUND(100.0 * SUM(is_dropout) / COUNT(*), 2) AS "Dropout Rate (%)" FROM students',
-        "Rasio mahasiswa dropout terhadap seluruh mahasiswa. Target manajemen < 25%.",
+        'SELECT ROUND(100.0 * SUM(is_dropout) / COUNT(*), 2) AS "Dropout Rate (%)" '
+        'FROM students_final',
+        "Rasio dropout pada 3.630 mahasiswa yang status akhirnya sudah pasti "
+        "(Dropout atau Graduate). Target manajemen < 30%.",
         color=RED, suffix="%"),
     kpi("Mahasiswa Aktif Perlu Intervensi",
         'SELECT COUNT(*) AS "Mahasiswa Aktif Perlu Intervensi" '
         'FROM students_active WHERE is_flagged = 1',
-        "Mahasiswa yang masih kuliah dengan skor risiko di atas ambang operasional 0,30.",
+        "Mahasiswa yang masih kuliah dengan skor risiko di atas ambang operasional 0,35.",
         color=ORANGE),
 
     # -------------------------------------------------------------- Seksi 2: akademik
     rate_card("Dropout % — Rasio Kelulusan Mata Kuliah", "band_kelulusan_sks",
               "Rasio Mata Kuliah Lulus",
-              "Mahasiswa yang tidak lulus satu pun mata kuliah dropout 80,77%.",
+              "Mahasiswa yang lulus di bawah 50% mata kuliah dropout 88-99%.",
               order_expr=ORDER_KELULUSAN),
     rate_card("Dropout % — Rata-rata Nilai Semester", "band_nilai_semester",
               "Rata-rata Nilai Semester",
-              "Nilai rata-rata di bawah 10 berkorelasi dengan dropout 86,18%.",
+              "Nilai rata-rata di bawah 10 berkorelasi dengan dropout 99,07%.",
               order_expr=ORDER_NILAI),
     chart("Rata-rata Performa Akademik per Status",
           """SELECT status AS "Status Akhir",
@@ -226,7 +233,7 @@ FROM students
 GROUP BY 1
 ORDER BY 2 DESC""",
           "Status Akhir", "Rasio Kelulusan (%)",
-          "Graduate 90%, Enrolled 67%, Dropout 34% — mahasiswa aktif berada di tengah.",
+          "Graduate 90%, Enrolled 67%, Dropout 34% — mahasiswa aktif berada persis di tengah.",
           display="bar", color=BLUE),
     chart("Dropout % — Tren Performa Antarsemester",
           """SELECT CASE WHEN tren_kelulusan < -0.1 THEN 'Memburuk'
@@ -234,7 +241,7 @@ ORDER BY 2 DESC""",
             ELSE 'Stabil' END AS "Tren Semester 1 -> 2",
        ROUND(100.0 * SUM(is_dropout) / COUNT(*), 2) AS "Dropout Rate (%)",
        COUNT(*) AS "Jumlah Mahasiswa"
-FROM students
+FROM students_final
 GROUP BY 1
 ORDER BY 2 DESC""",
           "Tren Semester 1 -> 2", "Dropout Rate (%)",
@@ -243,26 +250,26 @@ ORDER BY 2 DESC""",
 
     # -------------------------------------------------------------- Seksi 3: keuangan
     rate_card("Dropout % — Status Keuangan", "status_keuangan", "Status Keuangan",
-              "Kombinasi tunggakan dan UKT tertunggak menghasilkan dropout tertinggi.",
+              "Kombinasi tunggakan dan pembayaran tertunggak menghasilkan dropout 95,13%.",
               order_expr=ORDER_KEUANGAN),
     rate_card("Dropout % — Kelunasan UKT", "ukt_lunas", "UKT Lunas",
-              "Faktor tunggal terkuat: UKT belum lunas -> dropout 86,55%.",
+              "Faktor tunggal terkuat: pembayaran belum lunas -> dropout 94,03%.",
               order="2 DESC"),
     rate_card("Dropout % — Tunggakan (Debtor)", "menunggak", "Memiliki Tunggakan",
-              "Mahasiswa dengan tunggakan dropout 62,03% vs 28,28%."),
+              "Mahasiswa dengan tunggakan dropout 75,54% vs 34,47%."),
     rate_card("Dropout % — Beasiswa", "penerima_beasiswa", "Penerima Beasiswa",
-              "Beasiswa bersifat protektif: dropout 12,19% vs 38,71%.", color=GREEN),
+              "Beasiswa bersifat protektif: dropout 13,83% vs 48,37%.", color=GREEN),
 
     # -------------------------------------------------------------- Seksi 4: demografi
     rate_card("Dropout % — Kelompok Usia", "kelompok_usia", "Kelompok Usia",
               "Dropout naik konsisten seiring usia saat mendaftar.",
               order_expr=ORDER_USIA),
     rate_card("Dropout % — Jenis Kelamin", "jenis_kelamin", "Jenis Kelamin",
-              "Mahasiswa laki-laki dropout 45,05% vs perempuan 25,10%."),
+              "Mahasiswa laki-laki dropout 56,12% vs perempuan 30,24%."),
     rate_card("Dropout % — Waktu Kuliah", "waktu_kuliah", "Waktu Perkuliahan",
-              "Kelas malam dropout 42,86% vs kelas siang 30,80%."),
+              "Kelas malam dropout 50,74% vs kelas siang 37,68%."),
     rate_card("Dropout % — Status Pernikahan", "status_pernikahan", "Status Pernikahan",
-              "Mahasiswa menikah dropout 47,23% vs lajang 30,21%.",
+              "Mahasiswa menikah dropout 54,74% vs lajang 37,01%.",
               extra_where="\n  AND status_pernikahan IN ('Lajang', 'Menikah', 'Bercerai')"),
 
     # -------------------------------------------------------------- Seksi 5: program & jalur
@@ -270,10 +277,11 @@ ORDER BY 2 DESC""",
     # karena row chart Metabase melipat kategori berlebih menjadi satu batang "Other"
     # yang nilainya dijumlahkan sehingga menyesatkan untuk metrik persentase.
     rate_card("Dropout % — Program Studi", "program_studi", "Program Studi",
-              "Selisih antar program studi mencapai 40 poin persentase.",
-              order="2 DESC", display="bar"),
+              "Selisih antar program studi mencapai 69 poin persentase (86,79% vs 17,72%). "
+              "Hanya program studi dengan minimal 30 mahasiswa yang ditampilkan.",
+              order="2 DESC", display="bar", min_n=30),
     rate_card("Dropout % — Jalur Masuk", "jalur_masuk", "Jalur Masuk",
-              "Jalur non-reguler menyumbang risiko jauh lebih besar.",
+              "Jalur usia di atas 23 tahun dropout 65,51% vs seleksi reguler 28,98%.",
               order="2 ASC", display="row", color=ORANGE),
     rate_card("Dropout % — Nilai Seleksi Masuk", "band_nilai_masuk", "Band Nilai Masuk",
               "Nilai masuk rendah menaikkan risiko, tetapi jauh lebih lemah dari faktor keuangan.",
@@ -289,23 +297,33 @@ LIMIT 10""",
           "Fitur", "Skor Pengaruh (x1000)",
           "Permutation importance: penurunan ROC-AUC saat nilai fitur diacak.",
           display="row", color=BLUE),
-    chart("Sebaran Band Risiko Seluruh Mahasiswa",
+    chart("Sebaran Band Risiko Mahasiswa Berlabel",
           f"""SELECT risk_band AS "Band Risiko",
        COUNT(*) AS "Jumlah Mahasiswa"
-FROM students
+FROM students_final
 GROUP BY 1
 ORDER BY {ORDER_BAND}""",
           "Band Risiko", "Jumlah Mahasiswa",
-          "Distribusi skor risiko model untuk seluruh 4.424 mahasiswa.",
+          "Distribusi skor risiko out-of-fold pada 3.630 mahasiswa berlabel.",
           display="bar", color=ORANGE),
     chart("Validasi Kalibrasi: Dropout Aktual per Band Risiko",
           f"""SELECT risk_band AS "Band Risiko",
        ROUND(100.0 * SUM(is_dropout) / COUNT(*), 2) AS "Dropout Aktual (%)"
-FROM students
+FROM students_final
 GROUP BY 1
 ORDER BY {ORDER_BAND}""",
           "Band Risiko", "Dropout Aktual (%)",
-          "Bukti band risiko terkalibrasi: 4,8% pada band Rendah hingga 84,2% pada Sangat Tinggi.",
+          "Bukti band risiko terkalibrasi: 5,4% pada band Rendah hingga 93,0% pada Sangat Tinggi.",
+          display="bar", color=RED),
+    chart("Sebaran Band Risiko Mahasiswa Aktif",
+          f"""SELECT risk_band AS "Band Risiko",
+       COUNT(*) AS "Jumlah Mahasiswa"
+FROM students_active
+GROUP BY 1
+ORDER BY {ORDER_BAND}""",
+          "Band Risiko", "Jumlah Mahasiswa",
+          "Hasil prediksi model untuk 794 mahasiswa yang masih aktif kuliah — "
+          "dipakai sebagai urutan prioritas intervensi, bukan sebagai vonis.",
           display="bar", color=RED),
     chart("Rata-rata Skor Risiko Mahasiswa Aktif per Program Studi",
           """SELECT program_studi AS "Program Studi",
@@ -342,7 +360,9 @@ LIMIT 15""",
 SECTIONS = [
     "## 1. Ringkasan Kondisi Mahasiswa Jaya Jaya Institut",
     "## 2. Performa Akademik Tahun Pertama\n"
-    "*Garis putus-putus pada setiap grafik = dropout rate rata-rata institut (32,12%).*",
+    "*Dropout rate dihitung pada 3.630 mahasiswa yang status akhirnya sudah pasti "
+    "(Dropout atau Graduate). Garis putus-putus pada setiap grafik = rata-rata kohort tersebut "
+    "(39,15%).*",
     "## 3. Kondisi Keuangan Mahasiswa",
     "## 4. Profil Demografi & Pola Perkuliahan",
     "## 5. Program Studi & Jalur Masuk",
@@ -390,7 +410,7 @@ def build_layout(card_ids, text_cards):
     row += 3
 
     # Seksi 2 - akademik
-    add_text(1, height=2)
+    add_text(1, height=3)
     add("Dropout % — Rasio Kelulusan Mata Kuliah", 0, 12, 6)
     add("Dropout % — Rata-rata Nilai Semester", 12, 12, 6)
     row += 6
@@ -425,9 +445,11 @@ def build_layout(card_ids, text_cards):
     # Seksi 6 - machine learning
     add_text(5)
     add("10 Faktor Paling Berpengaruh (Model ML)", 0, 12, 7)
-    add("Sebaran Band Risiko Seluruh Mahasiswa", 12, 6, 7)
+    add("Sebaran Band Risiko Mahasiswa Berlabel", 12, 6, 7)
     add("Validasi Kalibrasi: Dropout Aktual per Band Risiko", 18, 6, 7)
     row += 7
+    add("Sebaran Band Risiko Mahasiswa Aktif", 0, 24, 6)
+    row += 6
     add("Rata-rata Skor Risiko Mahasiswa Aktif per Program Studi", 0, 24, 8)
     row += 8
     add("Daftar Prioritas Intervensi — 15 Mahasiswa Aktif Paling Berisiko", 0, 24, 10)

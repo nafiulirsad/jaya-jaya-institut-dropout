@@ -45,13 +45,13 @@ BAND_COLORS = {
     "Sangat Tinggi": DROPOUT,
 }
 
-# Dropout rate historis per band (hasil validasi silang pada notebook) — dipakai agar
-# angka yang ditampilkan aplikasi punya rujukan empiris, bukan sekadar label.
+# Dropout rate historis per band (hasil validasi silang out-of-fold pada notebook) —
+# dipakai agar angka yang ditampilkan aplikasi punya rujukan empiris, bukan sekadar label.
 BAND_EVIDENCE = {
-    "Rendah": "4,8% mahasiswa pada band ini benar-benar dropout secara historis",
-    "Sedang": "14,0% mahasiswa pada band ini benar-benar dropout secara historis",
-    "Tinggi": "36,3% mahasiswa pada band ini benar-benar dropout secara historis",
-    "Sangat Tinggi": "84,2% mahasiswa pada band ini benar-benar dropout secara historis",
+    "Rendah": "5,4% mahasiswa pada band ini benar-benar dropout secara historis",
+    "Sedang": "12,3% mahasiswa pada band ini benar-benar dropout secara historis",
+    "Tinggi": "39,6% mahasiswa pada band ini benar-benar dropout secara historis",
+    "Sangat Tinggi": "93,0% mahasiswa pada band ini benar-benar dropout secara historis",
 }
 
 st.set_page_config(
@@ -172,8 +172,9 @@ st.markdown(
     """
     <div class="jji-header">
       <h1>Sistem Deteksi Dini Mahasiswa Berisiko Dropout</h1>
-      <p>Jaya Jaya Institut · 32,12% mahasiswa berakhir dropout — aplikasi ini menandai mereka
-      sejak akhir tahun pertama agar bimbingan khusus bisa diberikan tepat waktu.</p>
+      <p>Jaya Jaya Institut · dari mahasiswa yang perjalanan studinya sudah selesai, 39,15%
+      berakhir dropout. Aplikasi ini menandai mereka sejak akhir tahun pertama agar bimbingan
+      khusus bisa diberikan tepat waktu.</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -210,7 +211,7 @@ if halaman == "Prediksi Individu":
                                          0.0, 20.0, 12.5, step=0.1)
             st.caption(
                 "Rasio mata kuliah yang lulus adalah faktor penentu nomor satu pada model. "
-                "Mahasiswa yang tidak lulus satu pun mata kuliah dropout 80,77% secara historis."
+                "Mahasiswa yang lulus di bawah 50% mata kuliah dropout 88-99% secara historis."
             )
 
         with tab_keuangan:
@@ -219,8 +220,8 @@ if halaman == "Prediksi Individu":
             menunggak = c2.selectbox("Memiliki tunggakan (debtor)?", ["Tidak", "Ya"])
             beasiswa = c3.selectbox("Penerima beasiswa?", ["Tidak", "Ya"])
             st.caption(
-                "Mahasiswa dengan UKT belum lunas dropout 86,55%, sementara penerima beasiswa "
-                "hanya 12,19%. Kondisi keuangan adalah pemisah paling tajam di seluruh data."
+                "Mahasiswa dengan pembayaran belum lunas dropout 94,03%, sementara penerima "
+                "beasiswa hanya 13,83%. Kondisi keuangan adalah pemisah paling tajam di seluruh data."
             )
 
         with tab_pendaftaran:
@@ -246,7 +247,7 @@ if halaman == "Prediksi Individu":
             perantau = c4.selectbox("Perantau (displaced)?", ["Tidak", "Ya"])
             internasional = c5.selectbox("Mahasiswa internasional?", ["Tidak", "Ya"])
             st.caption(
-                "Dropout naik seiring usia: 20,95% pada usia 17-19 tahun menjadi 59,79% "
+                "Dropout naik seiring usia: 25,23% pada usia 17-19 tahun menjadi 70,25% "
                 "pada usia 26-30 tahun."
             )
 
@@ -336,22 +337,22 @@ if halaman == "Prediksi Individu":
                ((sem1_approved / sem1_enrolled) if sem1_enrolled else 0)
 
         pemeriksaan = [
-            (ukt_lunas == "Tidak", "UKT belum lunas",
-             "86,55% mahasiswa dengan UKT tertunggak berakhir dropout"),
+            (ukt_lunas == "Tidak", "Pembayaran belum lunas",
+             "94,03% mahasiswa dengan pembayaran tertunggak berakhir dropout"),
             (menunggak == "Ya", "Memiliki tunggakan (debtor)",
-             "62,03% mahasiswa debtor berakhir dropout"),
+             "75,54% mahasiswa debtor berakhir dropout"),
             (beasiswa == "Tidak", "Bukan penerima beasiswa",
-             "Penerima beasiswa hanya dropout 12,19% vs 38,71% non-penerima"),
+             "Penerima beasiswa hanya dropout 13,83% vs 48,37% non-penerima"),
             (rasio < 0.5, f"Rasio kelulusan mata kuliah rendah ({rasio:.0%})",
-             "Rasio di bawah 50% berkorelasi dengan dropout 75-81%"),
+             "Rasio di bawah 50% berkorelasi dengan dropout 88-99%"),
             (rata_nilai < 10, f"Rata-rata nilai rendah ({rata_nilai:.1f}/20)",
-             "Nilai rata-rata di bawah 10 berkorelasi dengan dropout 86,18%"),
+             "Nilai rata-rata di bawah 10 berkorelasi dengan dropout 99,07%"),
             (tren < -0.1, "Performa menurun dari semester 1 ke semester 2",
-             "Tren kelulusan negatif termasuk 5 besar penentu model"),
+             "Tren kelulusan negatif termasuk 10 besar penentu model"),
             (usia >= 26, f"Mendaftar pada usia lanjut ({usia} tahun)",
-             "Dropout usia 26-30 tahun mencapai 59,79%"),
+             "Dropout usia 26-30 tahun mencapai 70,25%"),
             (waktu_kuliah == "Kelas Malam", "Mengambil kelas malam",
-             "Dropout kelas malam 42,86% vs kelas siang 30,80%"),
+             "Dropout kelas malam 50,74% vs kelas siang 37,68%"),
         ]
         aktif = [p for p in pemeriksaan if p[0]]
 
@@ -496,21 +497,30 @@ elif halaman == "Monitoring Angkatan":
 
     st.subheader("Kondisi Seluruh Mahasiswa Jaya Jaya Institut")
     total = len(scored)
-    dropout = int(scored["is_dropout"].sum())
+    # Dropout rate dihitung hanya pada mahasiswa yang status akhirnya sudah pasti,
+    # sama seperti pada notebook — mahasiswa Enrolled belum punya hasil akhir.
+    final = scored[scored["status"].isin(["Dropout", "Graduate"])]
+    dropout = int(final["is_dropout"].sum())
     aktif = scored[scored["status"] == "Enrolled"]
     aktif_ditandai = int((aktif["risk_score"] >= AMBANG * 100).sum())
 
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Total mahasiswa", f"{total:,}")
-    m2.metric("Dropout tercatat", f"{dropout:,}", f"{dropout / total * 100:.2f}% dari total",
+    m2.metric("Dropout tercatat", f"{dropout:,}",
+              f"{dropout / len(final) * 100:.2f}% dari {len(final):,} yang sudah selesai",
               delta_color="off")
     m3.metric("Masih aktif kuliah", f"{len(aktif):,}")
     m4.metric("Aktif & perlu intervensi", f"{aktif_ditandai:,}",
               f"{aktif_ditandai / len(aktif) * 100:.1f}% mahasiswa aktif", delta_color="off")
+    st.caption(
+        "Dropout rate dihitung pada mahasiswa yang status akhirnya sudah pasti (Dropout atau "
+        "Graduate). Mahasiswa yang masih aktif kuliah tidak diikutkan karena hasil akhirnya "
+        "belum diketahui — mereka justru menjadi sasaran prediksi pada tabel di bawah."
+    )
 
     c1, c2 = st.columns(2)
     with c1:
-        per_prodi = (scored.groupby("program_studi")
+        per_prodi = (final.groupby("program_studi")
                      .agg(jumlah=("student_id", "size"), dropout_rate=("is_dropout", "mean"))
                      .reset_index())
         per_prodi["dropout_rate"] = (per_prodi["dropout_rate"] * 100).round(2)
@@ -518,8 +528,9 @@ elif halaman == "Monitoring Angkatan":
         fig = px.bar(per_prodi, x="dropout_rate", y="program_studi", orientation="h",
                      text="dropout_rate", title="Dropout Rate per Program Studi (%)",
                      color_discrete_sequence=[DROPOUT])
-        fig.add_vline(x=dropout / total * 100, line_dash="dash", line_color="#8A939B",
-                      annotation_text=f"rata-rata institut {dropout / total * 100:.1f}%",
+        rata_rata = dropout / len(final) * 100
+        fig.add_vline(x=rata_rata, line_dash="dash", line_color="#8A939B",
+                      annotation_text=f"rata-rata kohort {rata_rata:.1f}%",
                       annotation_position="top")
         fig.update_traces(textposition="outside", cliponaxis=False)
         fig.update_layout(height=460, yaxis_title="", xaxis_title="Dropout Rate (%)",
@@ -532,7 +543,7 @@ elif halaman == "Monitoring Angkatan":
             "Perlu perhatian (1 masalah)": "Perlu perhatian",
             "Bermasalah (menunggak & UKT tertunggak)": "Bermasalah",
         }
-        per_keuangan = (scored.groupby("status_keuangan")
+        per_keuangan = (final.groupby("status_keuangan")
                         .agg(jumlah=("student_id", "size"), dropout_rate=("is_dropout", "mean"))
                         .reset_index())
         per_keuangan["dropout_rate"] = (per_keuangan["dropout_rate"] * 100).round(2)
@@ -552,7 +563,7 @@ elif halaman == "Monitoring Angkatan":
         band_aktif.columns = ["Band Risiko", "Jumlah"]
         fig3 = px.bar(band_aktif, x="Band Risiko", y="Jumlah", text="Jumlah", color="Band Risiko",
                       color_discrete_map=BAND_COLORS,
-                      title="Band Risiko Mahasiswa yang Masih Aktif Kuliah")
+                      title="Band Risiko Mahasiswa Aktif (hasil prediksi model)")
         fig3.update_layout(height=220, showlegend=False, xaxis_title="")
         st.plotly_chart(fig3, use_container_width=True)
 
@@ -596,19 +607,26 @@ else:
             Random Forest, Hist Gradient Boosting) berdasarkan **ROC-AUC validasi silang 5-fold**,
             lalu disetel dengan `RandomizedSearchCV` (40 kombinasi).
 
-            **Data latih.** {meta.get('jumlah_data_latih', 0):,} mahasiswa dengan proporsi
-            dropout {meta.get('proporsi_kelas_positif', 0):.2%}. ROC-AUC *out-of-fold* pada
-            seluruh data: **{meta.get('roc_auc_out_of_fold', 0):.4f}**.
+            **Data latih.** {meta.get('jumlah_data_latih', 0):,} mahasiswa yang status akhirnya
+            sudah pasti — **1 = Dropout, 0 = Graduate** — dengan proporsi dropout
+            {meta.get('proporsi_kelas_positif', 0):.2%}.
+            {meta.get('jumlah_mahasiswa_enrolled_dipisah', 0):,} mahasiswa berstatus *Enrolled*
+            **sengaja tidak dilibatkan** dalam pelatihan karena hasil akhirnya belum diketahui;
+            mereka hanya menjadi sasaran prediksi. ROC-AUC *out-of-fold*:
+            **{meta.get('roc_auc_out_of_fold', 0):.4f}**.
 
             **Ambang {AMBANG:.2f}, bukan 0,50.** {meta.get('alasan_ambang', '')}
             Pada ambang ini model menangkap
             {metrik.get('recall_ambang_operasional', 0):.1%} mahasiswa dropout, dengan konsekuensi
-            sekitar 1 dari 3 mahasiswa yang ditandai sebenarnya aman.
+            sekitar 1 dari 5 mahasiswa yang ditandai sebenarnya akan lulus.
             """
         )
         st.info(
             "**Batasan yang perlu diketahui.** Model memprediksi *risiko*, bukan kepastian. "
-            "Hasilnya adalah alat bantu untuk menentukan prioritas pendampingan — bukan dasar "
+            "Karena dilatih pada dua kelompok dengan hasil yang sudah pasti dan saling "
+            "berlawanan (dropout versus lulus), skornya cenderung terpolarisasi saat diterapkan "
+            "pada mahasiswa yang masih kuliah — pakailah sebagai **urutan prioritas**, bukan "
+            "vonis. Hasilnya adalah alat bantu menentukan prioritas pendampingan, bukan dasar "
             "untuk mengeluarkan atau memberi sanksi kepada mahasiswa. Model perlu dilatih ulang "
             "setiap akhir tahun akademik dengan data angkatan terbaru."
         )
@@ -618,12 +636,12 @@ else:
         band_df = pd.DataFrame({
             "Band": list(BAND_EVIDENCE),
             "Rentang probabilitas": ["< 20%", "20% – 35%", "35% – 60%", "≥ 60%"],
-            "Dropout aktual": ["4,8%", "14,0%", "36,3%", "84,2%"],
+            "Dropout aktual": ["5,4%", "12,3%", "39,6%", "93,0%"],
         })
         st.dataframe(band_df, use_container_width=True, hide_index=True)
         st.caption(
-            "Diukur dengan prediksi *out-of-fold* pada 4.424 mahasiswa, sehingga setiap "
-            "mahasiswa dinilai oleh model yang tidak pernah melihat datanya."
+            "Diukur dengan prediksi *out-of-fold* pada 3.630 mahasiswa berlabel, sehingga "
+            "setiap mahasiswa dinilai oleh model yang tidak pernah melihat datanya."
         )
 
     fi_path = BASE_DIR / "data" / "feature_importance.csv"
