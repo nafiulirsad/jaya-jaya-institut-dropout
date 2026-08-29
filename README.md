@@ -151,7 +151,7 @@ Prototipe dibangun dengan **Streamlit** dan sudah di-deploy ke **Streamlit Commu
 
 | Akses | Nilai |
 |---|---|
-| **URL prototipe** | **<https://jaya-jaya-institut-dropout.streamlit.app>** |
+| **URL prototipe** | **<https://nafiulirsad-jaya-jaya-institut-dropout.streamlit.app>** |
 | Berkas aplikasi | [app.py](app.py) |
 | Modul bersama | [preprocessing.py](preprocessing.py) |
 | Model | [model/dropout_model.joblib](model/dropout_model.joblib) |
